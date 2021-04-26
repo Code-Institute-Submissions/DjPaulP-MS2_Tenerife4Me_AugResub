@@ -75,10 +75,10 @@ attractions and hotels along with things to do while on holiday there.
 ##### *Color Scheme*
 * The main four colors repeated throughout the site are:
 
-  1. Purple - #9966cc
-  1. Violet - #9e7bb5
-  1. Beige - #f1ece9
-  1. White - #fff
+  1. 
+  1. 
+  1. 
+  1. 
 
 ##### *Typography*
 * Sofia is the font used for all headers. All information and text throughout the site have been written in Poppins with Sans Serif as the fallback font on the occasion the sites other fonts aren't loading properly.
