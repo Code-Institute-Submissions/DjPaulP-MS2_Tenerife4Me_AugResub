@@ -208,13 +208,14 @@
 }
 
 h1 {
-    color: #ff6271;
-    font-size: 100px;
+    color: yellow;
+    font-size: 65px;
 }
 
-#welcome {
-    margin: 250px;
+.welcome {
+    margin: 250px 0px;
     color: #fff;
+    background: none;
 }
 /* add style to hero video on website 
 help taken from https://howtogetonline.com/how-to-embed-a-hero-background-video.php*/
@@ -227,7 +228,7 @@ min-height: 100%;
 width: auto;
 height: auto;
 z-index: -100;
-filter:opacity(60%);
+filter:opacity(80%);
 transform: translateX(10%) translateY(40%);
 -ms-transform: translateX(-50%) translateY(-50%);
 -moz-transform: translateX(-50%) translateY(-50%);
@@ -249,7 +250,7 @@ background-size: cover;
     }
     /* set a style for all buttons*/
     button {
-        background-color: green;
+        background-color: rgb(129, 252, 129);
         color: white;
         padding: 14px 20px;
         margin: 8px 0;

@@ -1,4 +1,4 @@
-![logo](/assets/images/logolkdj.png "Limerick DJ Logo")
+![logo](/assets/images/logolkdj.png "Tenerife 4 Me")
 ![website on all devices](/assets/readmeimages/responsive_devices.PNG "Picture of website on all devices")
 
 
