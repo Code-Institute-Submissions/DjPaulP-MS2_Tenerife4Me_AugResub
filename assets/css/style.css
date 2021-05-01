@@ -325,3 +325,10 @@ background-size: cover;
             width: 100%;
         }
     }
+
+/* Styling the Map */
+
+#map {
+    height: 500px;
+    width: 80%;
+}
