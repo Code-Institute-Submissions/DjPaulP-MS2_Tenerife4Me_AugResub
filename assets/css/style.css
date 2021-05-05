@@ -216,6 +216,7 @@ h1 {
     margin: 250px 0px;
     color: #fff;
     background: none;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 /* add style to hero video on website 
 help taken from https://howtogetonline.com/how-to-embed-a-hero-background-video.php*/
@@ -325,11 +326,47 @@ background-size: cover;
             width: 100%;
         }
     }
+.tenerife-container {
+    background-color: #fff;
+}
 
+.opener {
+    color: #f77062;
+}
 /* Styling the Map */
 
 #map {
-    height: 500px;
-    width: 80%;
-    margin-left: 150px;
+    width: 100%;
+    overflow:hidden;
+    padding-bottom:50%;
+    margin-bottom: 20px;
+    position: relative;
+    height: 400px;
+}
+
+.grouped-btns {
+    text-align: center;
+    word-spacing: 100px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.exp-btns {
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: yellow;
+    border: 1px solid #000;
+    color: black;
+    height: 40px;
+    width: 180px;
+    margin-bottom: 3px;
+}
+
+.exp-btns:hover {
+    background-color: black;
+    color: yellow;
+    border: 1px solid #dfe8f1;
+}
+
+.exp-btn-icon {
+    margin-right: 10px;
 }
