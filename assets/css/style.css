@@ -251,7 +251,7 @@ background-size: cover;
     }
     /* set a style for all buttons*/
     button {
-        background-color: rgb(129, 252, 129);
+        background-color: rgb(32, 95, 32);
         color: white;
         padding: 14px 20px;
         margin: 8px 0;
@@ -327,7 +327,8 @@ background-size: cover;
         }
     }
 .tenerife-container {
-    background-color: #fff;
+    color: #fff;
+    background-color: #4d4141
 }
 
 .opener {
@@ -357,7 +358,7 @@ background-size: cover;
     border: 1px solid #000;
     color: black;
     height: 40px;
-    width: 180px;
+    width: 50%;
     margin-bottom: 3px;
 }
 
@@ -390,4 +391,60 @@ background-size: cover;
 
 #myBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
+}
+
+/* Styling the contact form */
+
+.contact {
+    max-width: 800px;
+    margin: 50px auto;
+    position: relative;
+    box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 1);
+}
+.contact-form span {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 10px;
+    display: block;
+    font-weight: 700;
+}
+
+.contact-form h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+    color: #f77062;
+}
+
+.contact-form input {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 25px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.contact-btn button {
+    Width: 100%;
+    border: 0;
+    padding: 15px 35px;
+    font-size: 22px;
+    border-radius: 5px;
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    transition: .3s ease-in-out;
+}
+
+.contact-btn button:hover  {
+    background-image: linear-gradient(to top, #ffb199 0%, #ff0844 100%);
+    transition: .3s ease-in-out;
 }

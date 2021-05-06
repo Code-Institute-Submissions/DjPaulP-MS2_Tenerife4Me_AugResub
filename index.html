@@ -29,7 +29,7 @@
                                 <a href="#Attractions" class="navbar_links">Attractions</a>
                             </li>
                             <li class="navbar_item">
-                                <a href="/" class="navbar_links">Contact</a>
+                                <a href="#contact" class="navbar_links">Contact</a>
                             </li>
 <! -- help for this modal was taken from https://www.geeksforgeeks.org/create-responsive-modal-sign-form-website/ -->
                             <li class="navbar_btn">
@@ -85,24 +85,24 @@
                 We will also give you our top pick of each.
             </p>
     </div>  
-    <div id="Attractions">      
+    <div id="Attractions" class="container">      
     <div class="row grouped-btns">
-    <div class="col-sm-6 col-md-4 col-xl-2">
+    <div class="col-md-4">
         <button type="button" class="btn exp-btns" id="beaches"><i class="fas fa-umbrella-beach exp-btn-icon"></i>Beaches</button>
     </div>
-    <div class="col-sm-6 col-md-4 col-xl-2">
+    <div class="col-md-4">
         <button type="button" class="btn exp-btns" id="resorts"><i class="fas fa-flag exp-btn-icon"></i>Resorts</button>
     </div>
-    <div class="col-sm-6 col-md-4 col-xl-2">
+    <div class="col-sm-4">
         <button type="button" class="btn exp-btns" id="restaurants"><i class="fas fa-utensils exp-btn-icon"></i>Restaurants</button>
     </div>
-    <div class="col-sm-6 col-md-4 col-xl-2">
+    <div class="col-sm-4">
         <button type="button" class="btn exp-btns" id="themepark"><i class="fas fa-water exp-btn-icon"></i>Theme Parks</button>
     </div>
-    <div class="col-sm-6 col-md-4 col-xl-2">
+    <div class="col-sm-4">
         <button type="button" class="btn exp-btns" id="hotels"><i class="fas fa-hotel exp-btn-icon"></i>Hotels</button>
     </div>
-    <div class="col-sm-6 col-md-4 col-xl-2">
+    <div class="col-sm-4">
         <button type="button" class="btn exp-btns" id="bars"><i class="fas fa-cocktail exp-btn-icon"></i>Bars</button>
     </div>
     </div>
@@ -110,6 +110,39 @@
     <div class="container">
     <div id="map"></div>
     </div>
+
+    <! Contact form code -->
+
+<section class="contact" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <form action="#" method="POST" class="contact-form">
+                    <div class="contact-form mt-5">
+                        <span>Get in Touch</span>
+                        <h2>Fill in the Form to Contact Us</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <input type="text" name="name" placeholder="Your Full Name..." required>
+                        </div>
+                        <div class="col-md-12">
+                            <input type="email" name="email" placeholder="Your Email Address..." required>
+                        </div>
+                        <div class="col-md-12">
+                            <textarea name="message" placeholder="Your Message...." required></textarea>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="contact-btn">
+                                <button type="submit">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
     
 <script src="assets/js/maps.js"></script>   
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCO3xu2fOUv5QhKa5m-t5cr0qaNWotj7gY&callback=initMap"></script> 
