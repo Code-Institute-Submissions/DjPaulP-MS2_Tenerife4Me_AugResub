@@ -420,6 +420,7 @@ background-size: cover;
 .form-heading {
     background-color: #131313;
     border-radius: 5px;
+    padding: 5px 0 5px 0;
     
 }
 .contact-form h2 {
