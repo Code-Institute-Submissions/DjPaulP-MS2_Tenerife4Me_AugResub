@@ -20,15 +20,15 @@
     <title>Tenerife 4 Me</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="navbar_container">
-                <a href="index.html" id="navbar_logo"><i class="fas fa-sun"></i>Tenerife 4 Me</a>
-                    <div class="navbar_toggle" id="mobile-menu">
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                    </div>
+<header>
+    <nav class="navbar">
+        <div class="navbar_container">
+            <a href="index.html" id="navbar_logo"><i class="fas fa-sun"></i>Tenerife 4 Me</a>
+                <div class="navbar_toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
                         <ul class="navbar_menu">
                             <li class="navbar_item">
                                 <a href="/" class="navbar_links">Home</a>
@@ -44,30 +44,37 @@
                                 <button class="button" onclick="document.getElementById('mod').style.display='block'" style="width:auto;">Newsletter</button>
                                     <div id="mod" class="modal">
                                         <span onclick="document.getElementById('mod').style.display='none'" class="close" title="Close Modal">×</span>
-                                            <form class="modal-content animate" action="/action_page.php">
-                                                <h3>Sign up to our newsletter and <br>receive Special Offers while you are in Tenerife</h3>
-                                                <div class="container">
-                                                    <label><b>Name</b></label>
-                                                    <input type="text" placeholder="Enter Your Name" name="name" required>
+                                            <form onsubmit="return sendNews(this);" class="contact-form container">
+                                                <div class="contact-form mt-5">
                                                     
-                                                    <label><b>Email</b></label>
-                                                    <input type="text" placeholder="Enter Email" name="email" required>
- 
-                                                    <input type="checkbox"> Remember me
-                                                    <p>By signing up you agree to our <a href="#">Terms & Privacy</a>.</p>
- 
-                                                    <div class="clearfix">
-                                                    <button type="button" onclick="document.getElementById('mod').style.display='none'" class="cancelbtn">Cancel</button>
-                                                    <button type="submit" class="signupbtn">Sign Up</button>
-                                                    </div>
+                                                    <div class="form-heading">
+                                                        <h2><i class="fa fa-envelope" aria-hidden="true"></i>Sign up to our Newsletter and rececive some amazing Special Offers while you are in Tenerife</h2>
+                                                    </div>    
                                                 </div>
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <input type="text" name="name" placeholder="Your Full Name..." required>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <input type="email" name="emailaddress" placeholder="Your Email Address..." required>
+                                                        </div>
+                        
+                                                        <div class="col-md-12">
+                            
+                                                            <div class="contact-btn">
+                                                                <button type="submit" id="btnsubmit">Submit</button>
+                                                            </div>
+                            
+                                                        </div>
+                                                    </div>
                                             </form>
                                     </div>
                             </li>
                         </ul>  
-            </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
+</header>
+
 <! adding a scroll to top button with help from w3school https://www.w3schools.com/howto/howto_js_scroll_to_top.asp -->
 <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
         <div id="hero">
@@ -355,9 +362,11 @@
                             <textarea name="message" placeholder="Your Message...." required></textarea>
                         </div>
                         <div class="col-md-12">
+                            
                             <div class="contact-btn">
                                 <button type="submit" id="btnsubmit">Submit</button>
                             </div>
+                            
                         </div>
                     </div>
                 </form>
