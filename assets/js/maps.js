@@ -11,7 +11,7 @@ let map;
 
 // Different set of locations
 
-let beachLocations = [{
+let beachesLocations = [{
         coords: {
             lat: 28.062002,
             lng: -16.734416
@@ -138,7 +138,7 @@ let resortsLocations = [{
     },
 ];
 
-let restaurantLocations = [{
+let restaurantsLocations = [{
         coords: {
             lat: 28.054874,
             lng: -16.730243
@@ -148,9 +148,29 @@ let restaurantLocations = [{
         <div class="info-content">Phone:<span class="phone-num">+34 922 89 86 73</span></div>
         <div class="info-content">Website:<span class="info-website"><a target="blank" href="http://www.vegasgrilltenerife.com/"></span>http://www.vegasgrilltenerife.com/</a></div>`
     },
+    {
+        coords: {
+            lat: 28.054674,
+            lng: -16.731169
+        }, // Hard Rock Cafe
+        content: `<h4 class="info-head">The Hard Rock Cafe</h4>
+        <h6 class="info-address"> Pirámide de Arona, Avda. Las Americas s/n, Playa de las Américas - Arona, Tenerife 38660 ES</h6>
+        <div class="info-content">Phone:<span class="phone-num">+34 922 05 50 22</span></div>
+        <div class="info-content">Website:<span class="info-website"><a target="blank" href="https://www.hardrockcafe.com/location/tenerife/"></span>https://www.hardrockcafe.com/location/tenerife/</a></div>`
+    },
+    {
+        coords: {
+            lat: 28.079055,
+            lng: -16.733596
+        }, // Harley's Restaurant
+        content: `<h4 class="info-head">Harley's Restaurant</h4>
+        <h6 class="info-address"> Av. de España, 338670 Adeje, Santa Cruz De Tenerife</h6>
+        <div class="info-content">Phone:<span class="phone-num">+34 922 71 22 90</span></div>
+        <div class="info-content">Website:<span class="info-website"><a target="blank" href="https://www.harleystenerife.com/"></span>https://www.harleystenerife.com/</a></div>`
+    },
 ];
 
-let themeparkLocations = [{
+let themeparksLocations = [{
         coords: {
             lat: 28.071750,
             lng: -16.726960
@@ -162,7 +182,7 @@ let themeparkLocations = [{
     },
 ];
 
-let hotelLocations = [{
+let hotelsLocations = [{
         coords: {
             lat: 28.121730,
             lng: -16.774910
@@ -219,6 +239,7 @@ function initMap(selectedLocations) {
             zoom: 8,
             center: myLatlng,
             disableDefaultUI: true,
+            
         });
     }
 
@@ -259,69 +280,73 @@ function initMap(selectedLocations) {
 // Event listeners for button options to drop markers and call functions to display top 3
 
 document.getElementById("beaches").addEventListener("click", () => {
-    initMap(beachLocations);
-    topThreeBeach();
+    initMap(beachesLocations);
+    topThreeBeaches();
 });
 document.getElementById("resorts").addEventListener("click", () => {
     initMap(resortsLocations);
-    topThreeActivities();
+    topThreeResorts();
 });
 document.getElementById("restaurants").addEventListener("click", () => {
-    initMap(restaurantLocations);
-    topThreeRestaurant();
+    initMap(restaurantsLocations);
+    topThreeRestaurants();
 });
-document.getElementById("themepark").addEventListener("click", () => {
-    initMap(themeparkLocations);
-    topThreeNature();
+document.getElementById("themeparks").addEventListener("click", () => {
+    initMap(themeparksLocations);
+    topThreeThemeparks();
 });
 document.getElementById("hotels").addEventListener("click", () => {
-    initMap(hotelLocations);
-    topThreeHotel();
+    initMap(hotelsLocations);
+    topThreeHotels();
 });
 document.getElementById("bars").addEventListener("click", () => {
     initMap(barsLocations);
-    topThreeArt();
+    topThreeBars();
 });
 
 // Functions to display top 3 recommendations
 
-function topThreeBeach() {
-    clearRecos();
-    document.getElementById("beach-recos").style.display = "block";
+function topThreeBeaches() {
+    clearFavs();
+    document.getElementById("beaches-favs").style.display = "block";
 }
 
-function topThreeActivities() {
-    clearRecos();
-    document.getElementById("resorts-recos").style.display = "block";
+function topThreeResorts() {
+    clearFavs();
+    document.getElementById("resorts-favs").style.display = "block";
 }
 
-function topThreeRestaurant() {
-    clearRecos();
-    document.getElementById("restaurant-recos").style.display = "block";
+function topThreeRestaurants() {
+    clearFavs();
+    document.getElementById("restaurants-favs").style.display = "block";
 }
 
-function topThreeNature() {
-    clearRecos();
-    document.getElementById("themeparks-recos").style.display = "block";
+function topThreeThemeparks() {
+    clearFavs();
+    document.getElementById("themeparks-favs").style.display = "block";
 }
 
-function topThreeHotel() {
-    clearRecos();
-    document.getElementById("hotel-recos").style.display = "block";
+function topThreeHotels() {
+    clearFavs();
+    document.getElementById("hotels-favs").style.display = "block";
 }
 
-function topThreeArt() {
-    clearRecos();
-    document.getElementById("bars-recos").style.display = "block";
+function topThreeBars() {
+    clearFavs();
+    document.getElementById("bars-favs").style.display = "block";
 }
 
 // Function to clear previous display of top 3 recommendations
 
-function clearRecos() {
-    document.getElementById("beach-recos").style.display = "none";
-    document.getElementById("resorts-recos").style.display = "none";
-    document.getElementById("restaurant-recos").style.display = "none";
-    document.getElementById("themepark-recos").style.display = "none";
-    document.getElementById("hotel-recos").style.display = "none";
-    document.getElementById("bars-recos").style.display = "none";
+function clearFavs() {
+    document.getElementById("beaches-favs").style.display = "none";
+    document.getElementById("resorts-favs").style.display = "none";
+    document.getElementById("restaurants-favs").style.display = "none";
+    document.getElementById("themeparks-favs").style.display = "none";
+    document.getElementById("hotels-favs").style.display = "none";
+    document.getElementById("bars-favs").style.display = "none";
 }
+
+
+
+
