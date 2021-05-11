@@ -9,6 +9,14 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
       crossorigin="anonymous"/>
       <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"/>
+      <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_tBdDhHlJw9i2v8OgD6f0g");
+   })();
+</script>
     <title>Tenerife 4 Me</title>
 </head>
 <body>
@@ -330,7 +338,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 offset-md-2">
-                <form action="#" method="POST" class="contact-form">
+                <form onsubmit="return sendMail(this);" class="contact-form">
                    <div class="contact-form mt-5">
                         <div class="form-heading">
                             <h2><i class="fa fa-envelope" aria-hidden="true"></i>Contact Us</h2>
@@ -341,14 +349,14 @@
                             <input type="text" name="name" placeholder="Your Full Name..." required>
                         </div>
                         <div class="col-md-12">
-                            <input type="email" name="email" placeholder="Your Email Address..." required>
+                            <input type="email" name="emailaddress" placeholder="Your Email Address..." required>
                         </div>
                         <div class="col-md-12">
                             <textarea name="message" placeholder="Your Message...." required></textarea>
                         </div>
                         <div class="col-md-12">
                             <div class="contact-btn">
-                                <button type="submit">Submit</button>
+                                <button type="submit" id="btnsubmit">Submit</button>
                             </div>
                         </div>
                     </div>
@@ -357,7 +365,7 @@
         </div>
     </div>
 </section>
-    
+<script src="assets/js/sendEmail.js"></script>    
 <script src="assets/js/maps.js"></script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCO3xu2fOUv5QhKa5m-t5cr0qaNWotj7gY&callback=initMap"></script>
 <script src="assets/js/key.js"></script>
