@@ -284,8 +284,7 @@ background-size: cover;
         width: 100%;
         height: 100%;
         overflow: auto;
-        background-color: rgb(0, 0, 0);
-        background-color: rgba(0, 0, 0, 0.4);
+        background-color: rgba(0, 0, 0, 0.7);
         padding-top: 60px;
     }
     /*define the modal-content background*/
@@ -302,8 +301,8 @@ background-size: cover;
         position: absolute;
         right: 35px;
         top: 15px;
-        color: #000;
-        font-size: 40px;
+        color: #fff;
+        font-size: 50px;
         font-weight: bold;
     }
     /*define the close hover and focus effects*/
@@ -328,11 +327,23 @@ background-size: cover;
     }
 .tenerife-container {
     color: #fff;
-    background-color: #4d4141
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .opener {
-    color: #f77062;
+  background: -webkit-linear-gradient(#ff0844, #ffb199);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* styling for the top 3 picks */
+.card-text {
+    color: #000;
+}
+.page-head {
+    background: -webkit-linear-gradient(#ff0844, #ffb199);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 /* Styling the Map */
 
@@ -345,6 +356,9 @@ background-size: cover;
     height: 400px;
 }
 
+.card-img-top {
+    height: 50%;
+}
 .grouped-btns {
     text-align: center;
     word-spacing: 100px;
@@ -477,8 +491,12 @@ background-size: cover;
 }
 
 /* Styling the footer */
+footer {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
 .global {
-    padding: 50px;
+    padding: 0px;
     color: #f0f9ff
 }
 
