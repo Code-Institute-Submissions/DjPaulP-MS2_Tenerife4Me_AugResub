@@ -546,3 +546,27 @@ footer {
     opacity: 0.8;
     font-size: 16px;
 }
+
+.button-colour {
+    background: -webkit-linear-gradient(#ff0844, #ffb199);
+    color: #fff
+}
+
+.button-colour:hover  {
+    background-image: linear-gradient(to top, #ffb199 0%, #ff0844 100%);
+    transition: .3s ease-in-out;
+}
+
+.btns {
+    border-radius: 15px;
+    padding: 5px;
+    background: -webkit-linear-gradient(#ff0844, #ffb199);
+    color: #fff
+}
+
+.btns:hover  {
+    background: -webkit-linear-gradient(#ffb199, #ff0844);
+    transition: .3s ease-in-out;
+    color: #fff;
+    text-decoration: none;
+}
