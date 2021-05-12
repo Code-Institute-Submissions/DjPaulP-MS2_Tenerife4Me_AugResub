@@ -7,6 +7,7 @@ function sendMail(contactForm){
     .then(
         function(response) {
             console.log("SUCCESS", response);
+            location.reload();
         },
         function(error) {
             console.log("FAILED", error);
@@ -22,6 +23,7 @@ function sendNews(newsForm){
     .then(
         function(response) {
             console.log("SUCCESS", response);
+            location.reload();
         },
         function(error) {
             console.log("FAILED", error);
