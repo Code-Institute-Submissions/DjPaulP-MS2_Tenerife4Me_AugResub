@@ -9,10 +9,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
       crossorigin="anonymous"/>
       <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"/>
-      <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
-</script>
-<script type="text/javascript">
+      <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+<script>
    (function(){
       emailjs.init("user_tBdDhHlJw9i2v8OgD6f0g");
    })();
@@ -39,7 +37,7 @@
                             <li class="navbar_item">
                                 <a href="#foot" class="navbar_links">Social</a>
                             </li>
-<! -- help for this modal was taken from https://www.geeksforgeeks.org/create-responsive-modal-sign-form-website/ -->
+<!-- help for this modal was taken from https://www.geeksforgeeks.org/create-responsive-modal-sign-form-website/ -->
                             <li class="navbar_btn">
                                 <button class="button" onclick="document.getElementById('mod').style.display='block'" style="width:auto;">Newsletter</button>
                                     <div id="mod" class="modal">
@@ -62,7 +60,7 @@
                                                         <div class="col-md-12">
                             
                                                             <div class="contact-btn">
-                                                                <button type="submit" id="btnsubmit">Submit</button>
+                                                                <button type="submit" class="btnsubmit">Submit</button>
                                                             </div>
                             
                                                         </div>
@@ -75,11 +73,11 @@
     </nav>
 </header>
 
-<! adding a scroll to top button with help from w3school https://www.w3schools.com/howto/howto_js_scroll_to_top.asp -->
+<!-- adding a scroll to top button with help from w3school https://www.w3schools.com/howto/howto_js_scroll_to_top.asp -->
 <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
         <div id="hero">
-            <video playsinline autoplay muted loop poster="placeholder.jpg" id="bgvideo" width="x" height="y">
-                <source src="assets/images/WONDERS OF TENERIFE _ Drone 4K.mp4" type="video/mp4">
+            <video playsinline autoplay muted loop poster="placeholder.jpg" id="bgvideo">
+                <source src="assets/images/tenerife.mp4" type="video/mp4">
             </video>  
         </div>        
     <div class="welcome container-fluid">
@@ -146,7 +144,7 @@
                     </div>
                     <div class="col-12 col-sm-4 favs-cards">
                         <div class="card mx-auto h-100">
-                            <img src="assets/images/Los Christianos Beach.jpg" class="card-img-top" alt="Los Christianos Beach">
+                            <img src="assets/images/los_cristianos_beach.jpg" class="card-img-top" alt="Los Christianos Beach">
                             <div class="card-body text-center d-flex flex-column">
                                 <h5 class="card-title card-head">Playa de Los Christianos</h5>
                                 <p class="card-text card-content">A much quieter beach so relaxation is the key. Perfect for anyone with small children.</p>
@@ -359,7 +357,7 @@
             </div>
         </div>
     
-    <! Contact form code -->
+    <!-- Contact form code -->
 
 <section class="contact" id="contact">
     <div class="container">
