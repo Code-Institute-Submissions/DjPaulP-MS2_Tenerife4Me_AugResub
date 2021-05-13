@@ -126,21 +126,16 @@ attractions and hotels along with things to do while on holiday there.
 * There is also a text-area for any further information or questions that they may have.
 
 ### Wireframes
-* All wireframes are here. Shown are Index, Gallery and Contact pages on Desktop, Tablet and Mobile devices
+* All wireframes are here. Shown are Desktop, Tablet and Mobile devices
 * Desktop View<br>
-![homepage wireframe desktop](/assets/wireframes/index2.png "wireframe of homepage on desktop")
-![gallery wireframe desktop](/assets/wireframes/gallery2.png "wireframe of gallery on desktop")
-![contact wireframe desktop](/assets/wireframes/contact2.png "wireframe of contact on desktop")
+![homepage wireframe desktop](/assets/readmeimages/desktop.png "wireframe of websitehomepage on desktop")
 
 * Tablet View <br>
-![homepage wireframe tablet](/assets/wireframes/tablet_index2.png "wireframe of homepage on tablet")
-![gallery wireframe tablet](/assets/wireframes/tablet_gallery2.png "wireframe of gallery on tablet")
-![contact wireframe tablet](/assets/wireframes/tablet_contact2.png "wireframe of contact on tablet")
+![homepage wireframe tablet](/assets/readmeimages/tablet.png "wireframe of website on tablet")
 
 * Mobile View<br>
-![homepage wireframe mobile](/assets/wireframes/mobile_index2.png "wireframe of homepage on mobile")
-![gallery wireframe mobile](/assets/wireframes/mobile_gallery2.png "wireframe of gallery on mobile")
-![contact wireframe mobile](/assets/wireframes/mobile_contact2.png "wireframe of contact on mobile")
+![homepage wireframe mobile](/assets/readmeimages/mobile.png "wireframe of website on mobile")
+
 ***
 
 ## **Features**
