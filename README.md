@@ -128,13 +128,13 @@ attractions and hotels along with things to do while on holiday there.
 ### Wireframes
 * All wireframes are here. Shown are Desktop, Tablet and Mobile devices
 * Desktop View<br>
-![homepage wireframe desktop](/assets/readmeimages/desktop.png "wireframe of websitehomepage on desktop")
+<img src="/assets/readmeimages/desktop.png" width="800px" height="1000px">
 
 * Tablet View <br>
-![homepage wireframe tablet](/assets/readmeimages/tablet.png "wireframe of website on tablet")
+<img src="/assets/readmeimages/tablet.png" width="500px" height="1000px">
 
 * Mobile View<br>
-![homepage wireframe mobile](/assets/readmeimages/mobile.png "wireframe of website on mobile")
+<img src="/assets/readmeimages/mobile.png" width="400px" height="1000px">
 
 ***
 
