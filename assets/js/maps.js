@@ -571,7 +571,7 @@ function initMap(selectedLocations) {
                 map: map,
                 animation: google.maps.Animation.DROP,
             });
-
+                        
             // Create info window
 
             const infowindow = new google.maps.InfoWindow({

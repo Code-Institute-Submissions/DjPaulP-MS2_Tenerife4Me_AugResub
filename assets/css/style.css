@@ -545,18 +545,10 @@ footer {
     font-weight: 500;
     opacity: 0.8;
     font-size: 16px;
+    padding-bottom: 20px;
 }
 
-.button-colour {
-    background: -webkit-linear-gradient(#ff0844, #ffb199);
-    color: #fff
-}
-
-.button-colour:hover  {
-    background-image: linear-gradient(to top, #ffb199 0%, #ff0844 100%);
-    transition: .3s ease-in-out;
-}
-
+/* styling the more info buttons on the 2 favourites divs */
 .btns {
     border-radius: 15px;
     padding: 5px;

@@ -1,10 +1,10 @@
-![logo](/assets/images/logolkdj.png "Tenerife 4 Me")
-![website on all devices](/assets/readmeimages/responsive_devices.PNG "Picture of website on all devices")
+![logo](/assets/readmeimages/Tenerife4MeLogo.PNG "Tenerife 4 Me")
+![website on all devices](/assets/readmeimages/responsive.PNG "Picture of website on all devices")
 
 
 
 # *Tenerife 4 Me*
-View the live project [HERE.](https://djpaulp.github.io/MILESTONE_PROJECT_1/)
+View the live project [HERE.](https://djpaulp.github.io/MS2_Tenerife4Me/)
 
 ***
 
@@ -44,7 +44,6 @@ attractions and hotels along with things to do while on holiday there.
 ##### *First Time Users*
 * I want to see what beaches there are on the Island.
 * I want to see what accomodation is available.
-* Where is the Airport.
 * What attractions are there.
 * Are there activities for chidren?
 * Are there activities for adults?
@@ -56,38 +55,40 @@ attractions and hotels along with things to do while on holiday there.
 
 ##### *Returning Users*
 * I want to know has there been any new attractions added?
-* I want to see any special offers.
+* I want to see the latest special offers.
 * I want to explore beaches that I may not have known about
 
 ### Target Audience
 * Prospective people looking to book holidays.
 * People who are interested in beach holidays.
+* People already on holiday on the Island looking for bars, restaurants and beaches.
 * Families and adults who like activites while on holidays.
 
 ### Business Owner Goals
-* Inform holiday makers about the island of Tenerife
+* Inform holiday makers about the island of Tenerife, in particular the most popular part, the South of the Island. 
 * Encourage people to sign up to our newsletter (this could be monetized for advertising, special offer ads etc.)
 * Make the site appealing to holiday makers, bright and exciting.
 * A map of the island is key in showing the beaches, resorts and activities.
 * include links to social media pages.
+* Show them our favourite locations so we may monetize this also 
 
 ### Design
 ##### *Color Scheme*
-* The main four colors repeated throughout the site are:
+* The colors repeated throughout the site are:
 
-  1. 
-  1. 
-  1. 
-  1. 
+  1. Black #fff
+  2. Linear Color #ff0844 down to #ffb199
+  3. #ff8177 was used on the Newsletter Button
+  4. Text is in white and Black
+  5. Yellow is also used for the opening text message and on the attractions buttons so they stand out more.
 
 ##### *Typography*
-* Sofia is the font used for all headers. All information and text throughout the site have been written in Poppins with Sans Serif as the fallback font on the occasion the sites other fonts aren't loading properly.
+* Kumbh Sans is the font used throughout the site with Sans Serif as the fallback font on the occasion the sites other fonts aren't loading properly.
 
 ##### *Imagery*
-* Each page contains a large background image of a couple kissing on a dancefloor. Hopefully exciting couples of what their wedding could look like. 
-* There are also 3 images on the homepage making the packages available look more appealing.
-* There is promotional video on the Gallery & Reviews page.
-* The Gallery contains 9 images from past weddings.
+* The page opens with a video of the Island of Tenerife. This was taken from youtube https://www.youtube.com/watch?v=MQMn6f__BLw 
+* There are also 3 images that load when any of the buttons are clicked. These were taken from either the venues website, tripadvisor, expedia and google. 
+
 
 ##### *Homepage* 
 * All pages were designed for ease of use with a simple column and row design. Landing pages on mobile have moved the navigation menu under the logo image.
@@ -151,21 +152,23 @@ attractions and hotels along with things to do while on holiday there.
 ### Languages Used
 * HTML5
 * CSS3
+* JavaScript
 
 ### Frameworks, Libraries & Programs Used
 1. [Bootstrap 4.2.1:](https://getbootstrap.com/) 
    * Bootstrap was used to assist with the responsiveness and styling of the website.
 2. [Google Fonts:](https://fonts.google.com/) 
-   * Google fonts were used to import the "Sofia" and "Poppins" fonts into the style.css file which is used on all pages throughout the project.
+   * Google fonts were used to import the "Kumbh Sans" into the style.css file which is used throughout the project.
 3. [Font Awesome:](https://fontawesome.com/)
-   * Font Awesome was used on all pages throughout the website to add icons for UX purposes. They appear on all footers and also on the homepage as packages with stars. 
+   * Font Awesome was used throughout the website to add icons for UX purposes. They appear on all footers and also on the contact form and newsletter form. 
 4. [Git:](https://git-scm.com/)
    * Git was used for version control by utilizing the Gitpod terminal to commit and push to Github.
 5. [GitHub:](https://github.com/)  
    * GitHub is used to store the project code after being pushed from Git.
 6. [Balsamiq:](https://balsamiq.com/)
-    * Balsamiq was used to create the wireframes during the design process. 
-
+   * Balsamiq was used to create the wireframes during the design process. 
+7. [Emailjs:](https://www.emailjs.com/)
+   * Emailjs was used to send the Newsletter form and also the contact form. Both of which work perfectly. 
 ***
 
 ## **Testing**
@@ -245,6 +248,14 @@ The project was deployed to GitHub Pages using the following steps...
 
 ***
 
+### What I would like to impliment going forward
+
+* To move this project forward I would like google maps to populate the map with markers automatically. As venues open or close this would populate according to google maps. 
+* I would run a google ad campaign to raise awareness of this website. 
+* It would be great to partner with hotels/theme parks/restaurants etc. to create advertising for them to be included in our social media and Newsletter. 
+
+***
+
 ## **Credits**
 
 ### Code
@@ -261,13 +272,14 @@ The project was deployed to GitHub Pages using the following steps...
 
 * [Boostrap](https://embed.plnkr.co/plunk/LpJLnT) Used also for animating the footer social icons
 
-* Can Sucullu (Mentor): My mentor Can Sucullu helped with advising on what was needed for this website
+* Precious (Mentor): My mentor Precious helped with advising on what was needed for this website and encouraged me throughout the building process. 
 
-* Cormac (Tutor Support): Cormac helped with explaining and structuring bootrap columns when I had an overflow issue, the use of the chrome extension Unicorn Revealer was great.
+* (Tutor Support): Cormac helped with explaining and structuring bootrap columns when I had an overflow issue, the use of the chrome extension Unicorn Revealer was great.
 
 ### Content
 
 * All content was written by the developer. Content was taken from my other sites which I also wrote. These are www.paulprenderville.ie and www.limerickdj.com
+
 
 ### Media
 
@@ -277,8 +289,8 @@ The project was deployed to GitHub Pages using the following steps...
 
 ### Acknowledgements 
 
-* My mentor, Can Sucullu for his continuous feedback, support and encouragement.
+* My mentor, Precious for his continuous feedback, support and encouragement.
 
-* Tutor support at Code Institute for all their help and friendliness, especially cormac_ci.
+* Tutor support at Code Institute for all their help and friendliness.
 
 * Slack for all the helpful hints and tips
