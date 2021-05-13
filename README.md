@@ -167,21 +167,18 @@ attractions and hotels along with things to do while on holiday there.
 ***
 
 ## **Testing**
-* The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project. Ensuring there were no syntax errors.
+* The W3C Markup Validator and W3C CSS Validator Services were used to validate the website. This ensured there were no syntax errors.
 
-* CSS Validation can be seen here:
-![css validation](/assets/readmeimages/css_capture.PNG "css validation image") 
+* CSS Validation can be seen here:<br>
+<img src="/assets/readmeimages/cssvalidation.PNG" width="400px" height="400px"> 
 
-* The first time I ran the the html validator it returned and error in which I had forgotten the alt attribute for the logo image.
+* The first time I ran the the css validator it returned an error in which I had forgotten the seconds on a transition.
     This was quickly rectified
-* HTML5 Validation for the index page can be see here:
-![index page validation](/assets/readmeimages/index_html_capture.PNG "index page validation image")
 
-* HTML5 Validation for the gallery page can be seen here:
-![gallery page validation](/assets/readmeimages/gallery_html_capture.PNG "gallery page validation image")
+* HTML5 Validation for the index page can be see here:<br>
+<img src="/assets/readmeimages/htmlvalidation.PNG" width="400px" height="400px">
+* The first time I ran the the html validator it returned an error in which "type=text/JavaScript" was no longer needed so I deleted this.
 
-* HTML5 Validation for the contact page can be seen here:
-![contact page validation](/assets/readmeimages/contact_html_capture.PNG "contact page validation image")
 
 ### Testing User Stories from UX Section
 **First Time Visitor Goals**
