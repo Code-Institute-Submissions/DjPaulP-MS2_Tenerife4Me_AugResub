@@ -228,7 +228,7 @@ attractions and hotels along with things to do while on holiday there.
 3. As a first time user, I would like to check out the djs social pages.
 
    * On the fotter there are links to each of my business social pages which users can check out. These contain more videos and more up to date information<br>
-   ![footer social](/assets/readmeimages/social.PNG "social icons on footer")
+<img src="/assets/readmeimages/footer.PNG" width="600px" height="300px">
 
 ## DevTools
 
@@ -238,7 +238,7 @@ attractions and hotels along with things to do while on holiday there.
     * The Bootstrap grid system was updated and implemented more often to control how the columns responded.
     * When the website is inspected using the dev tools, using for example an iphone 5, there's an overflow. If you change to an iphone 8, this disappears and also when you
       change back to an iphone 5 again, it's resolved.
-      
+
 * Debugging
     * Highlighted incorrect use of styling and/or Bootstrap.
     * Console.log was used and placed amoungst the code to debug any issues.
