@@ -233,19 +233,20 @@ attractions and hotels along with things to do while on holiday there.
 
 **Returning Visitors**
 
-1. As a returning visitor, I would like to see up to date pictures and reviews.
-   * The images in the gallery can be easily updated and up to date reviews added. 
+1. As a returning visitor, I would like to see up to date activities, hotels, bars and restaurants etc. 
+   * New activities and venues can very easily be added or taken away.  
 
 **Frequent Visitors**
 
-* As weddings are one off events I don't foresee visitors returning.
+* As a frequent visitor I would like to see what are the latest offers.
+    * By signing up to the newsletter you will recieve all the latest offers and also any updates that have been made on the website. 
 
 ### Further Testing
 
 * The website was tested on Google Chrome with dev tools and also Firefox browsers.
 * I also used the Unicorn Revealer extension to check errors with columns.
 * The website was viewed on a variety of devices such as Desktop, Laptop, iPad & Samsung mobile devices.
-* There was an issue with the cover text on the hero image being in the wrong place, it was relative to the page. I changed this to be relative to the hero image and it works perfectly. 
+* There was an issue overflow when the screen size was made smaller there was an overflow. This was corrected by changing the size of the navbar. 
 * All the links on every page were tested on all browsers to ensure they are working properly.
 * My family members were recruited to play on the site and inform me of any changes they felt needed to be made, look for mistakes and check all links worked as they should.
 
@@ -260,6 +261,8 @@ The project was deployed to GitHub Pages using the following steps...
 4. Under "Source", click the dropdown called "None" and select "Master Branch" and click save.
 5. The page will automatically refresh.
 6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+7. The ribbon notification displays this message:  'Your site is published at https://djpaulp.github.io/MS2_Tenerife4Me/'
+8. I have provided this link at the top of the README file.
 
 #### Running Project Locally 
 
@@ -277,6 +280,7 @@ To run your own version of this project, it can be cloned or downloaded from Git
 ### What I would like to impliment going forward
 
 * To move this project forward I would like google maps to populate the map with markers automatically. As venues open or close this would populate according to google maps. 
+This wasn't implimented due to time contraints.
 * I would run a google ad campaign to raise awareness of this website. 
 * It would be great to partner with hotels/theme parks/restaurants etc. to create advertising for them to be included in our social media and Newsletter. 
 
@@ -292,11 +296,12 @@ To run your own version of this project, it can be cloned or downloaded from Git
 
 * [W3schools.com:](https://www.w3schools.com/) W3 was a great resource for random rules and code while working on this project.
 
-* [YouTube.com:](https://youtube.com/) Youtube was another great resource for code tips and especially with css design.
-
-* [Quackit.com:](https://www.quackit.com/css/properties/webkit/css_-webkit-transform.cfm) Used to test and understand how to rotate the social icons when hovered.
+* [YouTube.com:](https://youtube.com/) Youtube was another great resource for code tips and especially with css design and JavaScript.
 
 * [Boostrap](https://embed.plnkr.co/plunk/LpJLnT) Used also for animating the footer social icons
+
+* [Emailjs](https://emailjs.com/)The code for the EmailJS was a mixture of using the documentation found on the website, following the CI tutorial videos on EmailJS, and my own
+knowledge and practice put into place.
 
 * Precious Ijege (Mentor): My mentor Precious helped with advising on what was needed for this website and encouraged me throughout the building process. 
 
@@ -304,7 +309,8 @@ To run your own version of this project, it can be cloned or downloaded from Git
 
 ### Content
 
-* All content was written by the developer. Content was taken from my other sites which I also wrote. These are www.paulprenderville.ie and www.limerickdj.com
+* All content was written by the developer. Content was taken from other sites such as [expedia](https://www.expedia.ie/), [tripadvisor](https://www.tripadvisor.ie/). 
+and [wikipedia](https://www.wikipedia.org/). These sources were used to populate the site.
 
 
 ### Media
