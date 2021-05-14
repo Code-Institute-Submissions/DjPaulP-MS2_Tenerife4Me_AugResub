@@ -315,7 +315,7 @@ let themeparksLocations = [{
         content: `<h4 class="info-head">Monkey Park</h4>
         <h6 class="info-address">Camino Moreque, Camino Real Llano Azul, 38627, Santa Cruz de Tenerife, Spain</h6>
         <div class="info-content">Phone: <span class="phone-num">+34 922 79 07 20</span></div>
-        <div class="info-content">Website: <span class="info-website"><a target="blank" href="http://monkeypark.com/></span> Monkey Park</a></div>`
+        <div class="info-content">Website: <span class="info-website"><a target="blank" href="http://monkeypark.com/"></span> Monkey Park</a></div>`
     },
 ];
 
