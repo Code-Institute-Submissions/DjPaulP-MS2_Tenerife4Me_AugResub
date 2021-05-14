@@ -76,54 +76,75 @@ attractions and hotels along with things to do while on holiday there.
 ##### *Color Scheme*
 * The colors repeated throughout the site are:
 
-  1. Black #fff
-  2. Linear Color #ff0844 down to #ffb199
+  1. Black #fff for background on header and some text. 
+  2. Linear Color #ff0844 down to #ffb199 for headings and also page logo. 
   3. #ff8177 was used on the Newsletter Button
-  4. Text is in white and Black
+  4. White is used on some of the text. 
   5. Yellow is also used for the opening text message and on the attractions buttons so they stand out more.
 
 ##### *Typography*
 * Kumbh Sans is the font used throughout the site with Sans Serif as the fallback font on the occasion the sites other fonts aren't loading properly.
 
 ##### *Imagery*
-* The page opens with a video of the Island of Tenerife. This was taken from youtube https://www.youtube.com/watch?v=MQMn6f__BLw 
-* There are also 3 images that load when any of the buttons are clicked. These were taken from either the venues website, tripadvisor, expedia and google. 
+* The page opens with a video of the Island of Tenerife. This was taken from [YouTube](https://www.youtube.com/watch?v=MQMn6f__BLw)
+* If opened on an ipad or mobile device a static image is displayed. This was taken from [Pixabay](https://pixabay.com/)
+* There are also 3 images that load when any of the buttons are clicked. These were taken from either the venues website, [tripadvisor](https://www.tripadvisor.ie/), [expedia](https://www.expedia.ie/) and google. 
 
 
-##### *Homepage* 
-* All pages were designed for ease of use with a simple column and row design. Landing pages on mobile have moved the navigation menu under the logo image.
-![menu under logo](/assets/readmeimages/logomenu.PNG "logo with menu underneath")
+##### *Website* 
+* The Website was designed for ease of use with a simple column and row design. Landing pages on mobile have changed the navigation menu to 3 bars
+<img src="/assets/readmeimages/navbarmobile.PNG" width="400px" height="100px">
 
-* All devices contain a call to action button, encouraging users to get in contact about special offers.
+* When the mobile 3 bars are clicked they open in a dropdown fashion<br>
+<img src="/assets/readmeimages/navbarmobileclick.PNG" width="400px" height="500px">
 
-![call to action button](/assets/readmeimages/actionbutton.PNG "call to action button")
+* All devices contain a call to action button, encouraging users to sign up to our newsletter.
 
-* As you scroll down the homepage you will come across the packages that are available to couples for their wedding.
+<img src="/assets/readmeimages/newsletter.PNG" width="300px" height="100px">
 
-![packages available](/assets/readmeimages/packages.PNG "packages available on homepage")
+* As you scroll down the homepage you will come across the Activites buttons.
 
-* In the footer I have placed our logo linking back to our homepage, a contact number and email along with social icons that link to the platforms.
+<img src="/assets/readmeimages/actbuttons.PNG" width="600px" height="100px">
 
-![footer](/assets/readmeimages/footer.PNG "image of the footer")
+* When these buttons are clicked they drop markers on the map.
+
+<img src="/assets/readmeimages/mapmarkers.PNG" width="300px" height="500px">
+
+* You can click on the markers and an info box will open.
+
+<img src="/assets/readmeimages/infobox.PNG" width="300px" height="300px">
+
+* You will also notice when scrolling there is a button that brings you back to the top of the page.
+
+<img src="/assets/readmeimages/scroll.PNG" width="300px" height="200px">
+
+* Once you click on any of the attractions buttons, as well as a marker being dropped on the map, a Top 3 recommendation opens also
+
+<img src="/assets/readmeimages/favs.PNG" width="800px" height="400px">
+
+* On scrolling further down the page you will come to the contact form
+
+<img src="/assets/readmeimages/contact.PNG" width="600px" height="600px">
+
+* In the footer I have placed social icons that link to the various platforms. It also contains the copyright information. 
+
+<img src="/assets/readmeimages/footer.PNG" width="500px" height="200px">
 
 
-##### *Gallery & Reviews Page*
-* The Gallery & Reviews page has all images and reviews organized neatly in three columns, and 3 rows.
-  When viewed on moblie devices this becomes 1 column with all images and reviews in rows underneath. 
+##### *Contact Form and Newletter*
+* A form has been created and when submitted this is the email that is received by the site owner
 
-* There is a promotional video located near the top of the page embeded from youtube.
+<img src="/assets/readmeimages/messageemail.PNG" width="500px" height="400px">
 
-* Images can be clicked to open in a larger size on a different browser tab.
+* The form gathers basic information such as name and email but most importantly users can ask questions in the text area.
 
-* Again I have placed the call to action button under the hero image for continuity and ease. 
+* When the newsletter button is clicked a modal pops up for them to fill in their details.
 
-##### *Contact Page*
-* A form has been created here for couples to make inquiries.
-![form on contact page](/assets/readmeimages/form.PNG "form on contact page")
+<img src="/assets/readmeimages/modal.PNG" width="700px" height="400px">
 
-* The form gathers basic information such as name and email but most importantly the date of the couples wedding.
+* When the newsletter is submitted, this is the email that is received by the site owner alerting them to a new sign up.
 
-* There is also a text-area for any further information or questions that they may have.
+<img src="/assets/readmeimages/newsletteremail.PNG" width="500px" height="400px">
 
 ### Wireframes
 * All wireframes are here. Shown are Desktop, Tablet and Mobile devices
