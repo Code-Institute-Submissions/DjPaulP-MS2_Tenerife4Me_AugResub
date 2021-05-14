@@ -182,25 +182,27 @@ attractions and hotels along with things to do while on holiday there.
 
 ### Testing User Stories from UX Section
 **First Time Visitor Goals**
-1. As a first time user, I would like to easily understand what this dj offers.
-   * Upon entering, users are greeted with an eye-grabbing hero image of a couple kissing on a dancefloor, whith smiling guests around them.
+1. As a first time user, I would like to easily understand what Tenerife offer. Is there much to do and see?
+   * Upon entering, users are greeted with an eye-grabbing hero drone video of the island of Tenerife.<br>
+<img src="/assets/readmeimages/homepage.PNG" width="600px" height="400px">
+<br>
 
-   * On desktop devices there is also a container over the hero image with a tagline.
-   ![tagline](/assets/readmeimages/taglineimage.PNG "tagline over main image")
+   * Users are also greeted with a welcome message to get them excited about their holiday.<br>
+<img src="/assets/readmeimages/welcome.PNG" width="600px" height="200px">
    
-2. As a first time user, I would like to easily navigate through the site's content.
+2. As a first time user, it is very important to be able to easily navigate through the site. 
 
    * When arriving at the site, the user has several options. In the top right corner of the page is the menu which navigates through the site.
-     The colour of the text is white and the background purple indicating which page they are on.<br>
-     ![homepage highlighted](/assets/readmeimages/menulist.PNG "landing page button styled to show which page you are on")<br>
-     ![gallery highlighted](/assets/readmeimages/menupage.PNG "landing page gallery button styled to show which page you are on") 
+     The colour of the text is white and the background black so it really stands out to them.<br>
+<img src="/assets/readmeimages/navbar.PNG" width="400px" height="75px">
    
-   * Under the hero image is a strategically placed call to action button, encouraging couples to get in touch about discounts for midweek weddings. 
+   * As you'll see there is a highlighted button on the navbar for Newsletter. It's imperative we get people to sign up to our Newsletter for monetizing the website.  
+<img src="/assets/readmeimages/newsletter.PNG" width="200px" height="75px"><br>
 
-   * As Users scroll down the page, they see a welcome message and a little info about Limerick DJ.
-   ![welcome message](/assets/readmeimages/welcomemessage.PNG "welcome message on homepage")
+   * As Users scroll down the page, they see a welcome message and a little info about Tenerife and what this website is going to focus on.<br>
+<img src="/assets/readmeimages/websiteinfo.PNG" width="600px" height="300px">
 
-   * There is also a link here to take them directly to the Gallery & Reviews page. 
+   * There is also a link here to take them directly to the Newsletter Sign up page. 
 
 3. As a first time user, I would like to check out the djs social pages.
 
