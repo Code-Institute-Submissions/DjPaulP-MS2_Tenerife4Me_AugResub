@@ -8,6 +8,7 @@ function sendMail(contactForm){
         function(response) {
             console.log("SUCCESS", response);
             location.reload();
+            alert('Your message has been received. We will get back to you as soon as possible');
         },
         function(error) {
             console.log("FAILED", error);
@@ -24,6 +25,7 @@ function sendNews(newsForm){
         function(response) {
             console.log("SUCCESS", response);
             location.reload();
+            alert('You have been signed up to our Newsletter. You will recevied your first one within 24 hours');
         },
         function(error) {
             console.log("FAILED", error);
