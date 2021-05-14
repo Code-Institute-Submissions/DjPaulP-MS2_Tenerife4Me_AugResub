@@ -1,11 +1,11 @@
-function initMap () {
-    var location = {lat: 28.064011, lng: -16.730419};
-    var map = new google.maps.Map(document.getElementById("map"), {zoom: 11, center: location});
-    var marker = new google.maps.Marker({
-        position: location,
-        map: map
-    });
-}
+//function initMap () {
+//    var location = {lat: 28.064011, lng: -16.730419};
+//    var map = new google.maps.Map(document.getElementById("map"), {zoom: 11, center: location});
+//    var marker = new google.maps.Marker({
+//        position: location,
+//        map: map
+//    });
+//}
 
 let map;
 
@@ -541,12 +541,12 @@ function initMap(selectedLocations) {
 
     if (window.screen.width < 768) {
         let myLatlng = {
-            lat: 28.291565,
-            lng: -16.629129
+            lat: 28.068741237359497,
+            lng: -16.73056978670721
         };
 
         map = new google.maps.Map(document.getElementById("map"), {
-            zoom: 8,
+            zoom: 13,
             center: myLatlng,
             disableDefaultUI: true,
             

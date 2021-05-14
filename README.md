@@ -259,6 +259,7 @@ attractions and hotels along with things to do while on holiday there.
 * The website was tested on Google Chrome with dev tools and also Firefox browsers.
 * I also used the Unicorn Revealer extension to check errors with columns.
 * The website was viewed on a variety of devices such as Desktop, Laptop, iPad & Samsung mobile devices.
+* I needed to correct the zoom level also for smaller devices. It was zoomed out too far, but also has been rectified.
 * There was an issue overflow when the screen size was made smaller there was an overflow. This was corrected by changing the size of the navbar. 
 * All the links on every page were tested on all browsers to ensure they are working properly.
 * My family members were recruited to play on the site and inform me of any changes they felt needed to be made, look for mistakes and check all links worked as they should.
