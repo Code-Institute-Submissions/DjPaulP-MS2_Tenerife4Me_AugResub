@@ -121,7 +121,7 @@
         display: grid;
         grid-template-columns: auto;
         margin: 0;
-        width: 100%;
+        width: 90%;
         height: 50vh;
         position: absolute;
         top: -1000px;
@@ -141,7 +141,7 @@
     }
 
     #navbar_logo {
-        padding-left: 25px; 
+        padding-left: 5px; 
     }
 
     .navbar_toggle .bar {
@@ -209,7 +209,7 @@
 
 h1 {
     color: yellow;
-    font-size: 65px;
+    font-size: 50px;
 }
 
 .welcome {
@@ -239,6 +239,24 @@ background: url(placeholder.jpg) no-repeat;
 background-size: cover;
 }
 
+.vid-mobile {
+  display:none;
+}
+
+@media only screen and (max-width: 940px) {
+  #bgvideo {
+    display: none;
+  }
+  body {
+    background: url(../images/beach_image.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+}
+
 /*add full-width input fields*/
     input[type=text],
     input[type=password] {
@@ -249,6 +267,7 @@ background-size: cover;
         border: 2px solid #ccc;
         box-sizing: border-box;
     }
+
     /* set a style for all buttons*/
     button {
         background-color: rgb(32, 95, 32);
@@ -372,7 +391,7 @@ background-size: cover;
     border: 1px solid #000;
     color: black;
     height: 40px;
-    width: 50%;
+    width: ;
     margin-bottom: 3px;
 }
 

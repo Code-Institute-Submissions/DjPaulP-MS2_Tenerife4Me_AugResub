@@ -76,11 +76,12 @@
 <!-- adding a scroll to top button with help from w3school https://www.w3schools.com/howto/howto_js_scroll_to_top.asp -->
 <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
         <div id="hero">
-            <video playsinline autoplay muted loop poster="placeholder.jpg" id="bgvideo">
+            <video playsinline autoplay muted loop poster="assets/images/beach_image.jpg" id="bgvideo">
                 <source src="assets/images/tenerife.mp4" type="video/mp4">
-            </video>  
-        </div>        
-    <div class="welcome container-fluid">
+            </video>
+        </div>   
+        <div class="container">     
+    <div class="welcome"> 
         <h1 class="center">WELCOME TO TENERIFE</h1>
         <h2 class="center">Your Holiday Starts Here!</h2>
     </div>
@@ -96,9 +97,10 @@
             <p>Tenerife is a vast island with so many wonderful things to do and see, so this website will concentrate
                 on the most popular part of the island to visit, the South. We'll show you where the best beaches, hotels, resorts, pubs and reastaurants are. 
                 We will also give you our top 3 picks of each. A must do while on your vacation. If you have any questions, please use the contact form at the bottom of the page to get in touch.
-                You can also follow us for the latest info on our social channels and for the best deals, sign up to our <a style="color:#f77062;" onclick="document.getElementById('mod').style.display='inline'" style="width:auto;">Newsletter</a>
+                You can also follow us for the latest info on our social channels and for the best deals, sign up to our <a onclick="document.getElementById('mod').style.display='inline'" style="width:auto; color:#f77062">Newsletter</a>
             </p>
     </div>  
+    </div>
     <div id="Attractions" class="container">      
     <div class="row grouped-btns">
     <div class="col-md-4">
@@ -107,16 +109,16 @@
     <div class="col-md-4">
         <button type="button" class="btn exp-btns" id="resorts"><i class="fas fa-flag exp-btn-icon"></i>Resorts</button>
     </div>
-    <div class="col-sm-4">
+    <div class="col-md-4">
         <button type="button" class="btn exp-btns" id="restaurants"><i class="fas fa-utensils exp-btn-icon"></i>Restaurants</button>
     </div>
-    <div class="col-sm-4">
+    <div class="col-md-4">
         <button type="button" class="btn exp-btns" id="themeparks"><i class="fas fa-water exp-btn-icon"></i>Theme Parks</button>
     </div>
-    <div class="col-sm-4">
+    <div class="col-md-4">
         <button type="button" class="btn exp-btns" id="hotels"><i class="fas fa-hotel exp-btn-icon"></i>Hotels</button>
     </div>
-    <div class="col-sm-4">
+    <div class="col-md-4">
         <button type="button" class="btn exp-btns" id="bars"><i class="fas fa-cocktail exp-btn-icon"></i>Bars</button>
     </div>
     </div>
@@ -392,8 +394,8 @@
         </div>
     </div>
 </section>
-<footer id="foot">
-    <div class="global">
+<footer class="container" id="foot">
+    <div class="global container">
         <div class="social center">
             <h6>Follow Us</h6>
             <a href="https://www.facebook.com/ILoveTenerife/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
