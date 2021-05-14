@@ -294,7 +294,7 @@ To run your own version of this project, it can be cloned or downloaded from Git
 ### What I would like to impliment going forward
 
 * To move this project forward I would like google maps to populate the map with markers automatically. As venues open or close this would populate according to google maps. 
-This wasn't implimented due to time contraints.
+This wasn't implimented due to time constraints. I have started doing this with the map.html file and also the hungry.js file to map restaurants at first.
 * I would run a google ad campaign to raise awareness of this website. 
 * It would be great to partner with hotels/theme parks/restaurants etc. to create advertising for them to be included in our social media and Newsletter. 
 
