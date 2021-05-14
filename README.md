@@ -261,6 +261,17 @@ The project was deployed to GitHub Pages using the following steps...
 5. The page will automatically refresh.
 6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
+#### Running Project Locally 
+
+To run your own version of this project, it can be cloned or downloaded from Github by following these steps:
+
+* Select the repository from the Github dashboard.
+* Click on the green 'Code' button, and click the 'clipboard icon' to copy the URL. It may also be displayed as a 'Clone or Download' green button.
+* Open the terminal window of your desired local IDE (Integrated Development Environment).
+* Choose the working directory to the location you would like to have the cloned repository.
+* Type 'git clone' in the terminal window, and then paste the URL you copied.
+* Press enter and the clone will be created.
+
 ***
 
 ### What I would like to impliment going forward
@@ -287,7 +298,7 @@ The project was deployed to GitHub Pages using the following steps...
 
 * [Boostrap](https://embed.plnkr.co/plunk/LpJLnT) Used also for animating the footer social icons
 
-* Precious (Mentor): My mentor Precious helped with advising on what was needed for this website and encouraged me throughout the building process. 
+* Precious Ijege (Mentor): My mentor Precious helped with advising on what was needed for this website and encouraged me throughout the building process. 
 
 * (Tutor Support): Cormac helped with explaining and structuring bootrap columns when I had an overflow issue, the use of the chrome extension Unicorn Revealer was great.
 
@@ -298,13 +309,12 @@ The project was deployed to GitHub Pages using the following steps...
 
 ### Media
 
-* The Hero image, and 3 images on the homepage for the packages were found using [Pixabay.](https://pixabay.com/)
-* All other images are owned by myself and taken from actual weddings. 
-* The promotional video was taken from my youtube channel using my new logo but this video I made myself.
+* The Hero image on mobile and smaller devices was found using [Pixabay.](https://pixabay.com/) 
+* The promotional video for desktop was taken from [Youtube.](https://www.youtube.com/watch?v=MQMn6f__BLw)
 
 ### Acknowledgements 
 
-* My mentor, Precious for his continuous feedback, support and encouragement.
+* My mentor, Precious Ijege for his continuous feedback, support and encouragement.
 
 * Tutor support at Code Institute for all their help and friendliness.
 
