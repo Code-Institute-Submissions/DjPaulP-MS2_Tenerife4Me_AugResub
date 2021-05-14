@@ -232,13 +232,13 @@ attractions and hotels along with things to do while on holiday there.
 
 ## DevTools
 
-Google Chrome DevTools was used for rigorous testing of the site. It was used for various different reasons.
-    
 * It tested for the responsiveness of the site across multiple screen resolutions.
     * It revealed an issue with the navbar. When the screen resolution was smaller, the screen would scroll to the right. I made the navbar smaller to rectify this. 
     * When scrolling the screen, the back to top button appeared on the bottom left. When clicked this would bring you back without a nice scroll. This was rectified in [css](https://css-tricks.com/need-to-scroll-to-the-top-of-the-page/)
     * The Bootstrap grid system was updated and implemented more often to control how the columns responded.
-    
+    * When the website is inspected using the dev tools, using for example an iphone 5, there's an overflow. If you change to an iphone 8, this disappears and also when you
+      change back to an iphone 5 again, it's resolved.
+      
 * Debugging
     * Highlighted incorrect use of styling and/or Bootstrap.
     * Console.log was used and placed amoungst the code to debug any issues.
