@@ -376,7 +376,7 @@ background-size: cover;
 }
 
 .card-img-top {
-    height: 50%;
+    height: 200px;
 }
 .grouped-btns {
     text-align: center;
@@ -391,7 +391,6 @@ background-size: cover;
     border: 1px solid #000;
     color: black;
     height: 40px;
-    width: ;
     margin-bottom: 3px;
 }
 
