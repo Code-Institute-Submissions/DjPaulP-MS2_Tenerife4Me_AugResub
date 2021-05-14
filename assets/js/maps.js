@@ -536,14 +536,7 @@ function initMap(selectedLocations) {
         center: myLatlng,
         disableDefaultUI: true,
     });
-//function initMap () {
-//    var location = {lat: 28.064011, lng: -16.730419};
-//    var map = new google.maps.Map(document.getElementById("map"), {zoom: 11, center: location});
-//    var marker = new google.maps.Marker({
-//        position: location,
-//        map: map
-//    });
-//}
+
     // Change zoom level on smaller screen sizes
 
     if (window.screen.width < 768) {

@@ -230,6 +230,19 @@ attractions and hotels along with things to do while on holiday there.
    * On the fotter there are links to each of my business social pages which users can check out. These contain more videos and more up to date information<br>
    ![footer social](/assets/readmeimages/social.PNG "social icons on footer")
 
+## DevTools
+
+Google Chrome DevTools was used for rigorous testing of the site. It was used for various different reasons.
+    
+* It tested for the responsiveness of the site across multiple screen resolutions.
+    * It revealed an issue with the navbar. When the screen resolution was smaller, the screen would scroll to the right. I made the navbar smaller to rectify this. 
+    * When scrolling the screen, the back to top button appeared on the bottom left. When clicked this would bring you back without a nice scroll. This was rectified in [css](https://css-tricks.com/need-to-scroll-to-the-top-of-the-page/)
+    * The Bootstrap grid system was updated and implemented more often to control how the columns responded.
+    
+* Debugging
+    * Highlighted incorrect use of styling and/or Bootstrap.
+    * Console.log was used and placed amoungst the code to debug any issues.
+
 
 **Returning Visitors**
 
@@ -253,6 +266,7 @@ attractions and hotels along with things to do while on holiday there.
 ***
 
 ## **Deployment**
+* This website was developed in Gitpod and pushed to the remote repository on Github.
 
 The project was deployed to GitHub Pages using the following steps...
 1. Log in to GitHub and locate the GitHub Repository.
