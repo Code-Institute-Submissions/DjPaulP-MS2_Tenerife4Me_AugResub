@@ -318,6 +318,8 @@ This wasn't implimented due to time constraints. I have started doing this with 
 * [Emailjs](https://emailjs.com/)The code for the EmailJS was a mixture of using the documentation found on the website, following the CI tutorial videos on EmailJS, and my own
 knowledge and practice put into place.
 
+* [Geeksforgeeks](https://www.geeksforgeeks.org/create-responsive-modal-sign-form-website/) Help taken from here for the modal sign up. 
+
 * Precious Ijege (Mentor): My mentor Precious helped with advising on what was needed for this website and encouraged me throughout the building process. 
 
 * (Tutor Support): Cormac helped with explaining and structuring bootrap columns when I had an overflow issue, the use of the chrome extension Unicorn Revealer was great.
