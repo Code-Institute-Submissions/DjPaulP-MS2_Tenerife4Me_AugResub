@@ -32,3 +32,4 @@ function sendNews(newsForm){
         });
         return false;
 }
+
