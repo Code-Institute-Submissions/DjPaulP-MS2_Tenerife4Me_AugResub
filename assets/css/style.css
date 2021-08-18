@@ -235,7 +235,7 @@ transform: translateX(10%) translateY(40%);
 -moz-transform: translateX(-50%) translateY(-50%);
 -webkit-transform: translateX(-50%) translateY(-50%);
 transform: translateX(-50%) translateY(-50%);
-background: url(assets/images/beach_image.jpg) no-repeat;
+background: url(../images/beach_image.jpg) no-repeat;
 background-size: cover;
 }
 
