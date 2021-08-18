@@ -1,418 +1,490 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
         type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
-      crossorigin="anonymous"/>
-      <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"/>
-      <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-<script>
-   (function(){
-      emailjs.init("user_tBdDhHlJw9i2v8OgD6f0g");
-   })();
-</script>
-<link rel="icon" href="favicon2.ico"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script>
+        (function () {
+            emailjs.init("user_tBdDhHlJw9i2v8OgD6f0g");
+        })();
+    </script>
+    <link rel="icon" href="favicon2.ico" />
     <title>Tenerife 4 Me</title>
 </head>
+
 <body>
-<header>
-    <nav class="navbar">
-        <div class="navbar_container">
-            <a href="index.html" id="navbar_logo"><i class="fas fa-sun"></i>Tenerife 4 Me</a>
+    <header>
+        <nav class="navbar">
+            <div class="navbar_container">
+                <a href="index.html" id="navbar_logo"><i class="fas fa-sun"></i>Tenerife 4 Me</a>
                 <div class="navbar_toggle" id="mobile-menu">
                     <span class="bar"></span>
                     <span class="bar"></span>
                     <span class="bar"></span>
                 </div>
-                        <ul class="navbar_menu">
-                            <li class="navbar_item">
-                                <a href="#Attractions" class="navbar_links">Attractions</a>
-                            </li>
-                            <li class="navbar_item">
-                                <a href="#contact" class="navbar_links">Contact</a>
-                            </li>
-                            <li class="navbar_item">
-                                <a href="#foot" class="navbar_links">Social</a>
-                            </li>
-<!-- help for this modal was taken from https://www.geeksforgeeks.org/create-responsive-modal-sign-form-website/ -->
-                            <li class="navbar_btn">
-                                <button class="button" onclick="document.getElementById('mod').style.display='block'" style="width:auto;">Newsletter</button>
-                                    <div id="mod" class="modal">
-                                        <span onclick="document.getElementById('mod').style.display='none'" class="close" title="Close Modal">×</span>
-                                            <form onsubmit="return sendNews(this);" class="contact-form container">
-                                                <div class="contact-form mt-5">
-                                                    
-                                                    <div class="form-heading">
-                                                        <h2><i class="fa fa-envelope" aria-hidden="true"></i>Sign up to our Newsletter and rececive some amazing Special Offers while you are in Tenerife</h2>
-                                                    </div>    
-                                                </div>
-                                                    <div class="row">
-                                                        <div class="col-md-12">
-                                                            <input type="text" name="name" pattern="[a-z]{A-Z}" placeholder="Your Full Name..." required>
-                                                        </div>
-                                                        <div class="col-md-12">
-                                                            <input type="email" name="emailaddress" pattern=".+@.+.+" placeholder="Your Email Address..." required>
-                                                        </div>
-                        
-                                                        <div class="col-md-12">
-                            
-                                                            <div class="contact-btn">
-                                                                <button type="submit" class="btnsubmit">Submit</button>
-                                                            </div>
-                            
-                                                        </div>
-                                                    </div>
-                                            </form>
-                                    </div>
-                            </li>
-                        </ul>  
-        </div>
-    </nav>
-</header>
+                <ul class="navbar_menu">
+                    <li class="navbar_item">
+                        <a href="#Attractions" class="navbar_links">Attractions</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="#contact" class="navbar_links">Contact</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="#foot" class="navbar_links">Social</a>
+                    </li>
+                    <!-- help for this modal was taken from https://www.geeksforgeeks.org/create-responsive-modal-sign-form-website/ -->
+                    <li class="navbar_btn">
+                        <button class="button" onclick="document.getElementById('mod').style.display='block'"
+                            style="width:auto;">Newsletter</button>
+                        <div id="mod" class="modal">
+                            <span onclick="document.getElementById('mod').style.display='none'" class="close"
+                                title="Close Modal">×</span>
+                            <form onsubmit="return sendNews(this);" class="contact-form container">
+                                <div class="contact-form mt-5">
 
-<!-- adding a scroll to top button with help from w3school https://www.w3schools.com/howto/howto_js_scroll_to_top.asp -->
-<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
-        <div id="hero">
-            <video playsinline autoplay muted loop poster="assets/images/beach_image.jpg" id="bgvideo">
-                <source src="assets/images/tenerife.mp4" type="video/mp4">
-            </video>
-        </div>   
-        <div class="container">     
-    <div class="welcome"> 
-        <h1 class="center">WELCOME TO TENERIFE</h1>
-        <h2 class="center">Your Holiday Starts Here!</h2>
+                                    <div class="form-heading">
+                                        <h2><i class="fa fa-envelope" aria-hidden="true"></i>Sign up to our Newsletter
+                                            and rececive some amazing Special Offers while you are in Tenerife</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <input type="text" name="name" pattern="[a-z]{A-Z}"
+                                            placeholder="Your Full Name..." required>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <input type="email" name="emailaddress" pattern=".+@.+.+"
+                                            placeholder="Your Email Address..." required>
+                                    </div>
+
+                                    <div class="col-md-12">
+
+                                        <div class="contact-btn">
+                                            <button type="submit" class="btnsubmit">Submit</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- adding a scroll to top button with help from w3school https://www.w3schools.com/howto/howto_js_scroll_to_top.asp -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+    <div id="hero">
+        <video playsinline autoplay muted loop poster="assets/images/beach_image.jpg" id="bgvideo">
+            <source src="assets/images/tenerife.mp4" type="video/mp4">
+        </video>
     </div>
-    <div class="container tenerife-container">
+    <div class="container">
+        <div class="welcome tenerife-container">
+            <h1 class="center">WELCOME TO TENERIFE</h1>
+            <h2 class="center">Your Holiday Starts Here!</h2>
+        </div>
+        <div class="container tenerife-container">
             <h1 class="opener text-center">Tenerife</h1>
-            <p class="paragraph">Year round sunshine, stunning beaches and glorious view are what makes Tenerife South a must for any holiday maker. The island of Tenerife is the largest of the Canary archipelago and is known as the island of eternal spring because of its all year round excellent climate.
-                                 The island is full of stark contrasts and has a great variety of scenery which varies through the regions. A mountain chain runs through its centre fro Anaga to Teno and on both of its slopes there are large, exuberantly fertile valleys, among them especially La Orotava and Gumar.
-                                 In the heart of the chain there is a gigantic, natural crater, called Las Cañadas del Teide, which is
-                                 about 29 km across and has officially been declared a National Park. It lies over 2,000 m above sea level. North of the crater stands El Pico del Teide (Mount Teide), a 3,718 m high mountain, which is the highest point in Spain. It
-                                 is snow covered in the winter and marks the island with its unique silhouette.
+            <p class="paragraph">Year round sunshine, stunning beaches and glorious views are what makes Tenerife South
+                a must for any holiday maker. The island of Tenerife is the largest of the Canary archipelago and is
+                known as the island of eternal spring because of its all year round excellent climate.
+                The island is full of stark contrasts and has a great variety of scenery which varies through the
+                regions. A mountain chain runs through its centre fro Anaga to Teno and on both of its slopes there are
+                large, exuberantly fertile valleys, among them especially La Orotava and Gumar.
+                In the heart of the chain there is a gigantic, natural crater, called Las Cañadas del Teide, which is
+                about 29 km across and has officially been declared a National Park. It lies over 2,000 m above sea
+                level. North of the crater stands El Pico del Teide (Mount Teide), a 3,718 m high mountain, which is the
+                highest point in Spain. It
+                is snow covered in the winter and marks the island with its unique silhouette.
             </p>
             <h2 class="opener text-center">Tenerife South</h2>
             <p>Tenerife is a vast island with so many wonderful things to do and see, so this website will concentrate
-                on the most popular part of the island to visit, the South. We'll show you where the best beaches, hotels, resorts, pubs and reastaurants are. 
-                We will also give you our top 3 picks of each. A must do while on your vacation. If you have any questions, please use the contact form at the bottom of the page to get in touch.
-                You can also follow us for the latest info on our social channels and for the best deals, sign up to our <a onclick="document.getElementById('mod').style.display='inline'" style="width:auto; color:#f77062">Newsletter</a>
+                on the most popular part of the island to visit, the South. We'll show you where the best beaches,
+                hotels, resorts, pubs and reastaurants are.
+                We will also give you our top 3 picks of each. A must do while on your vacation. If you have any
+                questions, please use the contact form at the bottom of the page to get in touch.
+                You can also follow us for the latest info on our social channels and for the best deals, sign up to our
+                <a onclick="document.getElementById('mod').style.display='inline'"
+                    style="width:auto; color:#f77062">Newsletter</a>
             </p>
-    </div>  
+        </div>
     </div>
-    <div id="Attractions" class="container">      
-    <div class="row grouped-btns">
-    <div class="col-md-4">
-        <button type="button" class="btn exp-btns" id="beaches"><i class="fas fa-umbrella-beach exp-btn-icon"></i>Beaches</button>
-    </div>
-    <div class="col-md-4">
-        <button type="button" class="btn exp-btns" id="resorts"><i class="fas fa-flag exp-btn-icon"></i>Resorts</button>
-    </div>
-    <div class="col-md-4">
-        <button type="button" class="btn exp-btns" id="restaurants"><i class="fas fa-utensils exp-btn-icon"></i>Restaurants</button>
-    </div>
-    <div class="col-md-4">
-        <button type="button" class="btn exp-btns" id="themeparks"><i class="fas fa-water exp-btn-icon"></i>Theme Parks</button>
-    </div>
-    <div class="col-md-4">
-        <button type="button" class="btn exp-btns" id="hotels"><i class="fas fa-hotel exp-btn-icon"></i>Hotels</button>
-    </div>
-    <div class="col-md-4">
-        <button type="button" class="btn exp-btns" id="bars"><i class="fas fa-cocktail exp-btn-icon"></i>Bars</button>
-    </div>
-    </div>
+    <div id="Attractions" class="container">
+        <div class="row grouped-btns">
+            <div class="col-md-4">
+                <button type="button" class="btn exp-btns" id="beaches"><i
+                        class="fas fa-umbrella-beach exp-btn-icon"></i>Beaches</button>
+            </div>
+            <div class="col-md-4">
+                <button type="button" class="btn exp-btns" id="resorts"><i
+                        class="fas fa-flag exp-btn-icon"></i>Resorts</button>
+            </div>
+            <div class="col-md-4">
+                <button type="button" class="btn exp-btns" id="restaurants"><i
+                        class="fas fa-utensils exp-btn-icon"></i>Restaurants</button>
+            </div>
+            <div class="col-md-4">
+                <button type="button" class="btn exp-btns" id="themeparks"><i
+                        class="fas fa-water exp-btn-icon"></i>Theme Parks</button>
+            </div>
+            <div class="col-md-4">
+                <button type="button" class="btn exp-btns" id="hotels"><i
+                        class="fas fa-hotel exp-btn-icon"></i>Hotels</button>
+            </div>
+            <div class="col-md-4">
+                <button type="button" class="btn exp-btns" id="bars"><i
+                        class="fas fa-cocktail exp-btn-icon"></i>Bars</button>
+            </div>
+        </div>
     </div>
     <!-- Google map -->
-    
+
     <div class="container">
         <div id="map"></div>
     </div>
     <div class="tenerife-container card-text container">
-            <div id="beaches-favs">
-                <div>
-                    <h2 class="page-head text-center">Top 3 Beaches</h2>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-sm-4 favs-cards">
-                        <div class="card mx-auto h-100">
-                            <img src="assets/images/playa-del-bobo.jpg" class="card-img-top" alt="Playa del Bobo">
-                            <div class="card-body text-center d-flex flex-column">
-                                <h5 class="card-title card-head">Playa del Bobo</h5>
-                                <p class="card-text card-content">A favourite with adults because of the beachside bar but plenty for the kids to do also. White sand and sun loungers galore.</p>
-                                <a href="https://www.tripadvisor.ie/Attraction_Review-g662606-d7984267-Reviews-Playa_del_Bobo-Costa_Adeje_Adeje_Tenerife_Canary_Islands.html" target="blank" class="btns mt-auto">Find out more</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-4 favs-cards">
-                        <div class="card mx-auto h-100">
-                            <img src="assets/images/los_cristianos_beach.jpg" class="card-img-top" alt="Los Christianos Beach">
-                            <div class="card-body text-center d-flex flex-column">
-                                <h5 class="card-title card-head">Playa de Los Christianos</h5>
-                                <p class="card-text card-content">A much quieter beach so relaxation is the key. Perfect for anyone with small children.</p>
-                                <a href="https://www.tripadvisor.ie/Attraction_Review-g659661-d10110537-Reviews-Playa_de_Los_Cristianos-Los_Cristianos_Arona_Tenerife_Canary_Islands.html" target="blank" class="btns mt-auto">Find out more</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-4 favs-cards">
-                        <div class="card mx-auto h-100">
-                            <img src="assets/images/playa-troya.jpg" class="card-img-top" alt="Playa de Troya">
-                            <div class="card-body text-center d-flex flex-column">
-                                <h5 class="card-title card-head">Playa de Troya</h5>
-                                <p class="card-text card-content">More popular with teenagers and young adults as it's located near party central, The Veronicas..</p>
-                                <a href="https://www.tripadvisor.ie/Attraction_Review-g562820-d8285114-Reviews-Troya_Beach-Playa_de_las_Americas_Arona_Tenerife_Canary_Islands.html" target="blank" class="btns mt-auto">Find out more</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div id="beaches-favs">
+            <div>
+                <h2 class="page-head text-center">Top 3 Beaches</h2>
             </div>
-            <!-- Resorts -->
-            <div id="resorts-favs" style="display:none">
-                <div>
-                    <h2 class="page-head text-center">Top 3 Resorts</h2>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-sm-4 favs-cards">
-                        <div class="card mx-auto h-100">
-                            <img src="assets/images/costa_adeje.jpg" class="card-img-top" alt="Costa Adeje">
-                            <div class="card-body text-center d-flex flex-column">
-                                <h5 class="card-title card-head">Costa Adeje</h5>
-                                <p class="card-text card-content">Not too busy and not too quiet. This is perfect for those who love white sandy beaches with an array of great bars and restaurants.</p>
-                                <a href="https://www.tripadvisor.ie/Tourism-g662606-Costa_Adeje_Adeje_Tenerife_Canary_Islands-Vacations.html" target="blank" class="btns mt-auto">Find out more</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-4 favs-cards">
-                        <div class="card mx-auto h-100">
-                            <img src="assets/images/las_americas.jpg" class="card-img-top" alt="Playa de Las Americas">
-                            <div class="card-body text-center d-flex flex-column">
-                                <h5 class="card-title card-head">Playa de Las Americas</h5>
-                                <p class="card-text card-content">If you are a fan out late nights, disco bars and hangovers then this is the place for you. The world famous Veronicas Centre with all the night clubs are on your doorstep.</p>
-                                <a href="https://www.tripadvisor.ie/Tourism-g562820-Playa_de_las_Americas_Arona_Tenerife_Canary_Islands-Vacations.html" target="blank" class="btns mt-auto">Find out more</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-4 favs-cards">
-                        <div class="card mx-auto h-100">
-                            <img src="assets/images/los_christianos.jpg" class="card-img-top" alt="Los Cristianos">
-                            <div class="card-body text-center d-flex flex-column">
-                                <h5 class="card-title card-head">Los Cristianos</h5>
-                                <p class="card-text card-content">A much quieter location, popular with retirees and those with young children. If you just want a beach holiday then this is the location for you.</p>
-                                <a href="https://www.tripadvisor.ie/Tourism-g659661-Los_Cristianos_Arona_Tenerife_Canary_Islands-Vacations.html" target="blank" class="btns mt-auto">Find out more</a>
-                            </div>
+            <div class="row">
+                <div class="col-12 col-sm-4 favs-cards">
+                    <div class="card mx-auto h-100">
+                        <img src="assets/images/playa-del-bobo.jpg" class="card-img-top" alt="Playa del Bobo">
+                        <div class="card-body text-center d-flex flex-column">
+                            <h5 class="card-title card-head">Playa del Bobo</h5>
+                            <p class="card-text card-content">A favourite with adults because of the beachside bar but
+                                plenty for the kids to do also. White sand and sun loungers galore.</p>
+                            <a href="https://www.tripadvisor.ie/Attraction_Review-g662606-d7984267-Reviews-Playa_del_Bobo-Costa_Adeje_Adeje_Tenerife_Canary_Islands.html"
+                                target="blank" class="btns mt-auto">Find out more</a>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- Restaurants -->
-            <div id="restaurants-favs" style="display:none">
-                <div>
-                    <h2 class="page-head text-center">Top 3 Restaurants</h2>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-sm-4 favs-cards">
-                        <div class="card mx-auto h-100">
-                            <img src="assets/images/LasVegasGrill.jpg" class="card-img-top" alt="Las Vegas Grill">
-                            <div class="card-body text-center d-flex flex-column">
-                                <h5 class="card-title card-head">Las Vegas Grill</h5>
-                                <p class="card-text card-content">Celebrate in one of Tenerife's top restaurants with a diverse menu to suit all tastes</p>
-                                <a href="https://rickstein.com/restaurants/the-seafood-restaurant/" target="blank" class="btns mt-auto">Find out more</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-4 favs-cards">
-                        <div class="card mx-auto h-100">
-                            <img src="assets/images/Harleys.jpg" class="card-img-top" alt="Harley's Restaurant">
-                            <div class="card-body text-center d-flex flex-column">
-                                <h5 class="card-title card-head">Harley's Restaurant</h5>
-                                <p class="card-text card-content">American cuisine served in a classic car. What holiday doesn't need this.</p>
-                                <a href="http://www.landsendrestaurant.co.uk/" target="blank" class="btns mt-auto">Find out more</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-4 favs-cards">
-                        <div class="card mx-auto h-100">
-                            <img src="assets/images/HardRockCafe.jpg" class="card-img-top" alt="Hard Rock Cafe">
-                            <div class="card-body text-center d-flex flex-column">
-                                <h5 class="card-title card-head">Hard Rock Cafe</h5>
-                                <p class="card-text card-content">Delight your tastebuds with Paul's creative cooking. Watch the chefs prepare your meal with an open kitchen.</p>
-                                <a href="http://www.number6inpadstow.co.uk/" target="blank" class="btns mt-auto">Find out more</a>
-                            </div>
+                <div class="col-12 col-sm-4 favs-cards">
+                    <div class="card mx-auto h-100">
+                        <img src="assets/images/los_cristianos_beach.jpg" class="card-img-top"
+                            alt="Los Christianos Beach">
+                        <div class="card-body text-center d-flex flex-column">
+                            <h5 class="card-title card-head">Playa de Los Christianos</h5>
+                            <p class="card-text card-content">A much quieter beach so relaxation is the key. Perfect for
+                                anyone with small children.</p>
+                            <a href="https://www.tripadvisor.ie/Attraction_Review-g659661-d10110537-Reviews-Playa_de_Los_Cristianos-Los_Cristianos_Arona_Tenerife_Canary_Islands.html"
+                                target="blank" class="btns mt-auto">Find out more</a>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- Theme Parks -->
-            <div id="themeparks-favs" style="display:none">
-                <div>
-                    <h2 class="page-head text-center">Top 3 Theme Parks</h2>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-sm-4 favs-cards">
-                        <div class="card mx-auto h-100">
-                            <img src="assets/images/siam_park.jpg" class="card-img-top" alt="Siam Park">
-                            <div class="card-body text-center d-flex flex-column">
-                                <h5 class="card-title card-head">Siam Park</h5>
-                                <p class="card-text card-content">If you love an adrenaline rush, Siam Park is a must for any holiday maker. Rides to suit all ages and even a beach!</p>
-                                <a href="https://www.siampark.net/en/" target="blank" class="btns mt-auto">Find out more</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-4 favs-cards">
-                        <div class="card mx-auto h-100">
-                            <img src="assets/images/puerto_colon.jpg" class="card-img-top" alt="Puerto Colon">
-                            <div class="card-body text-center d-flex flex-column">
-                                <h5 class="card-title card-head">Puerto Colon</h5>
-                                <p class="card-text card-content">Not a theme park as such, but here you'll find numerous boat tours including whale and dolphin watching as well as a booze cruise</p>
-                                <a href="https://www.tripadvisor.ie/Attraction_Review-g662606-d17534848-Reviews-Puerto_Colon-Costa_Adeje_Adeje_Tenerife_Canary_Islands.html" target="blank" class="btns mt-auto">Find out more</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-4 favs-cards">
-                        <div class="card mx-auto h-100">
-                            <img src="assets/images/aqualand.jpg" class="card-img-top" alt="Aqualand">
-                            <div class="card-body text-center d-flex flex-column">
-                                <h5 class="card-title card-head">Aqualand</h5>
-                                <p class="card-text card-content">Much more suited to younger children. Give them the trill of their lives with a visit to Aqualand</p>
-                                <a href="https://www.aqualand.es/" target="blank" class="btns mt-auto">Find out more</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Hotels -->
-            <div id="hotels-favs" style="display:none">
-                <div>
-                    <h2 class="page-head text-center">Top 3 Hotels</h2>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-sm-4 favs-cards">
-                        <div class="card mx-auto h-100">
-                            <img src="assets/images/flamingo_beach_mate.jpg" class="card-img-top" alt="Flamingo Beach Mate">
-                            <div class="card-body text-center d-flex flex-column">
-                                <h5 class="card-title card-head">Flamingo Beach Mate</h5>
-                                <p class="card-text card-content">By far our favourite hotel due to price, location and activities. You are guaranteed an amazing stay here.</p>
-                                <a href="https://www.flamingobeachmate.com/en/" target="blank" class="btns mt-auto">Find out more</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-4 favs-cards">
-                        <div class="card mx-auto h-100">
-                            <img src="assets/images/hotel_jardin.jpg" class="card-img-top" alt="Hotel Jardín Tropical">
-                            <div class="card-body text-center d-flex flex-column">
-                                <h5 class="card-title card-head">Hotel Jardín Tropical</h5>
-                                <p class="card-text card-content">A little more expensive, but so worth it. Peace, quiet and relaxtion aplenty with an amazing pool.</p>
-                                <a href="https://en.jardin-tropical.com/" target="blank" class="btns mt-auto">Find out more</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-4 favs-cards">
-                        <div class="card mx-auto h-100">
-                            <img src="assets/images/aguamar.jpg" class="card-img-top" alt="Aguamar">
-                            <div class="card-body text-center d-flex flex-column">
-                                <h5 class="card-title card-head">Aguamar</h5>
-                                <p class="card-text card-content">Designed to surprise and delight on your arrival, the Aguamar has it all and only a short walk from the beach.</p>
-                                <a href="https://apartamentosaguamar.com/en/" target="blank" class="btns mt-auto">Find out more</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Bars -->
-            
-            <div id="bars-favs" style="display:none">
-                <div>
-                    <h2 class="page-head text-center">Top 3 Bars</h2>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-sm-4 favs-cards">
-                        <div class="card mx-auto h-100">
-                            <img src="assets/images/the_hole_in_the_wall.jpg" class="card-img-top" alt="The Hole in the Wall">
-                            <div class="card-body text-center d-flex flex-column">
-                                <h5 class="card-title card-head">The Hole in the Wall</h5>
-                                <p class="card-text card-content">Guinness as good as Ireland and top notch entertainment everynight. You'll feel right at home</p>
-                                <a href="https://www.facebook.com/Hole-in-the-Wall-Tenerife-27927436973/" target="blank" class="btns mt-auto">Find out more</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-4 favs-cards">
-                        <div class="card mx-auto h-100">
-                            <img src="assets/images/the_dubliner.jpg" class="card-img-top" alt="The Dubliner">
-                            <div class="card-body text-center d-flex flex-column">
-                                <h5 class="card-title card-head">The Dubliner</h5>
-                                <p class="card-text card-content">For a late night out and entertainment to keep you dancing, a must on any holiday makers list is a visit to The Dubliner</p>
-                                <a href="https://m.facebook.com/THE-DUBLINER-BAR-TENERIFE-363956496609/" target="blank" class="btns mt-auto">Find out more</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-4 favs-cards">
-                        <div class="card mx-auto h-100">
-                            <img src="assets/images/skybar.jpg" class="card-img-top" alt="SkyBar">
-                            <div class="card-body text-center d-flex flex-column">
-                                <h5 class="card-title card-head">SkyBar</h5>
-                                <p class="card-text card-content">When the daytime sun gets too much a visit to the SkyBar is essential. Plenty of drinks promotions and stunning views of the sea make it even better.</p>
-                                <a href="https://www.facebook.com/skybartenerife/" target="blank" class="btns mt-auto">Find out more</a>
-                            </div>
+                <div class="col-12 col-sm-4 favs-cards">
+                    <div class="card mx-auto h-100">
+                        <img src="assets/images/playa-troya.jpg" class="card-img-top" alt="Playa de Troya">
+                        <div class="card-body text-center d-flex flex-column">
+                            <h5 class="card-title card-head">Playa de Troya</h5>
+                            <p class="card-text card-content">More popular with teenagers and young adults as it's
+                                located near party central, The Veronicas..</p>
+                            <a href="https://www.tripadvisor.ie/Attraction_Review-g562820-d8285114-Reviews-Troya_Beach-Playa_de_las_Americas_Arona_Tenerife_Canary_Islands.html"
+                                target="blank" class="btns mt-auto">Find out more</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    
-    <!-- Contact form code -->
+        <!-- Resorts -->
+        <div id="resorts-favs" style="display:none">
+            <div>
+                <h2 class="page-head text-center">Top 3 Resorts</h2>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-4 favs-cards">
+                    <div class="card mx-auto h-100">
+                        <img src="assets/images/costa_adeje.jpg" class="card-img-top" alt="Costa Adeje">
+                        <div class="card-body text-center d-flex flex-column">
+                            <h5 class="card-title card-head">Costa Adeje</h5>
+                            <p class="card-text card-content">Not too busy and not too quiet. This is perfect for those
+                                who love white sandy beaches with an array of great bars and restaurants.</p>
+                            <a href="https://www.tripadvisor.ie/Tourism-g662606-Costa_Adeje_Adeje_Tenerife_Canary_Islands-Vacations.html"
+                                target="blank" class="btns mt-auto">Find out more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 favs-cards">
+                    <div class="card mx-auto h-100">
+                        <img src="assets/images/las_americas.jpg" class="card-img-top" alt="Playa de Las Americas">
+                        <div class="card-body text-center d-flex flex-column">
+                            <h5 class="card-title card-head">Playa de Las Americas</h5>
+                            <p class="card-text card-content">If you are a fan out late nights, disco bars and hangovers
+                                then this is the place for you. The world famous Veronicas Centre with all the night
+                                clubs are on your doorstep.</p>
+                            <a href="https://www.tripadvisor.ie/Tourism-g562820-Playa_de_las_Americas_Arona_Tenerife_Canary_Islands-Vacations.html"
+                                target="blank" class="btns mt-auto">Find out more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 favs-cards">
+                    <div class="card mx-auto h-100">
+                        <img src="assets/images/los_christianos.jpg" class="card-img-top" alt="Los Cristianos">
+                        <div class="card-body text-center d-flex flex-column">
+                            <h5 class="card-title card-head">Los Cristianos</h5>
+                            <p class="card-text card-content">A much quieter location, popular with retirees and those
+                                with young children. If you just want a beach holiday then this is the location for you.
+                            </p>
+                            <a href="https://www.tripadvisor.ie/Tourism-g659661-Los_Cristianos_Arona_Tenerife_Canary_Islands-Vacations.html"
+                                target="blank" class="btns mt-auto">Find out more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Restaurants -->
+        <div id="restaurants-favs" style="display:none">
+            <div>
+                <h2 class="page-head text-center">Top 3 Restaurants</h2>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-4 favs-cards">
+                    <div class="card mx-auto h-100">
+                        <img src="assets/images/LasVegasGrill.jpg" class="card-img-top" alt="Las Vegas Grill">
+                        <div class="card-body text-center d-flex flex-column">
+                            <h5 class="card-title card-head">Las Vegas Grill</h5>
+                            <p class="card-text card-content">Celebrate in one of Tenerife's top restaurants with a
+                                diverse menu to suit all tastes</p>
+                            <a href="https://rickstein.com/restaurants/the-seafood-restaurant/" target="blank"
+                                class="btns mt-auto">Find out more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 favs-cards">
+                    <div class="card mx-auto h-100">
+                        <img src="assets/images/Harleys.jpg" class="card-img-top" alt="Harley's Restaurant">
+                        <div class="card-body text-center d-flex flex-column">
+                            <h5 class="card-title card-head">Harley's Restaurant</h5>
+                            <p class="card-text card-content">American cuisine served in a classic car. What holiday
+                                doesn't need this.</p>
+                            <a href="http://www.landsendrestaurant.co.uk/" target="blank" class="btns mt-auto">Find out
+                                more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 favs-cards">
+                    <div class="card mx-auto h-100">
+                        <img src="assets/images/HardRockCafe.jpg" class="card-img-top" alt="Hard Rock Cafe">
+                        <div class="card-body text-center d-flex flex-column">
+                            <h5 class="card-title card-head">Hard Rock Cafe</h5>
+                            <p class="card-text card-content">Delight your tastebuds with Paul's creative cooking. Watch
+                                the chefs prepare your meal with an open kitchen.</p>
+                            <a href="http://www.number6inpadstow.co.uk/" target="blank" class="btns mt-auto">Find out
+                                more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Theme Parks -->
+        <div id="themeparks-favs" style="display:none">
+            <div>
+                <h2 class="page-head text-center">Top 3 Theme Parks</h2>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-4 favs-cards">
+                    <div class="card mx-auto h-100">
+                        <img src="assets/images/siam_park.jpg" class="card-img-top" alt="Siam Park">
+                        <div class="card-body text-center d-flex flex-column">
+                            <h5 class="card-title card-head">Siam Park</h5>
+                            <p class="card-text card-content">If you love an adrenaline rush, Siam Park is a must for
+                                any holiday maker. Rides to suit all ages and even a beach!</p>
+                            <a href="https://www.siampark.net/en/" target="blank" class="btns mt-auto">Find out more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 favs-cards">
+                    <div class="card mx-auto h-100">
+                        <img src="assets/images/puerto_colon.jpg" class="card-img-top" alt="Puerto Colon">
+                        <div class="card-body text-center d-flex flex-column">
+                            <h5 class="card-title card-head">Puerto Colon</h5>
+                            <p class="card-text card-content">Not a theme park as such, but here you'll find numerous
+                                boat tours including whale and dolphin watching as well as a booze cruise</p>
+                            <a href="https://www.tripadvisor.ie/Attraction_Review-g662606-d17534848-Reviews-Puerto_Colon-Costa_Adeje_Adeje_Tenerife_Canary_Islands.html"
+                                target="blank" class="btns mt-auto">Find out more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 favs-cards">
+                    <div class="card mx-auto h-100">
+                        <img src="assets/images/aqualand.jpg" class="card-img-top" alt="Aqualand">
+                        <div class="card-body text-center d-flex flex-column">
+                            <h5 class="card-title card-head">Aqualand</h5>
+                            <p class="card-text card-content">Much more suited to younger children. Give them the trill
+                                of their lives with a visit to Aqualand</p>
+                            <a href="https://www.aqualand.es/" target="blank" class="btns mt-auto">Find out more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hotels -->
+        <div id="hotels-favs" style="display:none">
+            <div>
+                <h2 class="page-head text-center">Top 3 Hotels</h2>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-4 favs-cards">
+                    <div class="card mx-auto h-100">
+                        <img src="assets/images/flamingo_beach_mate.jpg" class="card-img-top" alt="Flamingo Beach Mate">
+                        <div class="card-body text-center d-flex flex-column">
+                            <h5 class="card-title card-head">Flamingo Beach Mate</h5>
+                            <p class="card-text card-content">By far our favourite hotel due to price, location and
+                                activities. You are guaranteed an amazing stay here.</p>
+                            <a href="https://www.flamingobeachmate.com/en/" target="blank" class="btns mt-auto">Find out
+                                more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 favs-cards">
+                    <div class="card mx-auto h-100">
+                        <img src="assets/images/hotel_jardin.jpg" class="card-img-top" alt="Hotel Jardín Tropical">
+                        <div class="card-body text-center d-flex flex-column">
+                            <h5 class="card-title card-head">Hotel Jardín Tropical</h5>
+                            <p class="card-text card-content">A little more expensive, but so worth it. Peace, quiet and
+                                relaxtion aplenty with an amazing pool.</p>
+                            <a href="https://en.jardin-tropical.com/" target="blank" class="btns mt-auto">Find out
+                                more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 favs-cards">
+                    <div class="card mx-auto h-100">
+                        <img src="assets/images/aguamar.jpg" class="card-img-top" alt="Aguamar">
+                        <div class="card-body text-center d-flex flex-column">
+                            <h5 class="card-title card-head">Aguamar</h5>
+                            <p class="card-text card-content">Designed to surprise and delight on your arrival, the
+                                Aguamar has it all and only a short walk from the beach.</p>
+                            <a href="https://apartamentosaguamar.com/en/" target="blank" class="btns mt-auto">Find out
+                                more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bars -->
 
-<section class="contact" id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 offset-md-2">
-                <form onsubmit="return sendMail(this);" class="contact-form">
-                   <div class="contact-form mt-5">
-                        <div class="form-heading">
-                            <h2><i class="fa fa-envelope" aria-hidden="true"></i>Contact Us</h2>
-                        </div>    
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <input type="text" name="name" pattern="[a-z]{A-Z}" placeholder="Your Full Name..." required>
-                        </div>
-                        <div class="col-md-12">
-                            <input type="email" pattern=".+@.+.+" name="emailaddress" placeholder="Your Email Address..." required>
-                        </div>
-                        <div class="col-md-12">
-                            <textarea name="message" id="message" placeholder="Your Message...." required></textarea>
-                        </div>
-                        <div class="col-md-12">
-                            
-                            <div class="contact-btn">
-                                <button type="submit" id="btnsubmit">Submit</button>
-                            </div>
-                            
+        <div id="bars-favs" style="display:none">
+            <div>
+                <h2 class="page-head text-center">Top 3 Bars</h2>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-4 favs-cards">
+                    <div class="card mx-auto h-100">
+                        <img src="assets/images/the_hole_in_the_wall.jpg" class="card-img-top"
+                            alt="The Hole in the Wall">
+                        <div class="card-body text-center d-flex flex-column">
+                            <h5 class="card-title card-head">The Hole in the Wall</h5>
+                            <p class="card-text card-content">Guinness as good as Ireland and top notch entertainment
+                                everynight. You'll feel right at home</p>
+                            <a href="https://www.facebook.com/Hole-in-the-Wall-Tenerife-27927436973/" target="blank"
+                                class="btns mt-auto">Find out more</a>
                         </div>
                     </div>
-                </form>
+                </div>
+                <div class="col-12 col-sm-4 favs-cards">
+                    <div class="card mx-auto h-100">
+                        <img src="assets/images/the_dubliner.jpg" class="card-img-top" alt="The Dubliner">
+                        <div class="card-body text-center d-flex flex-column">
+                            <h5 class="card-title card-head">The Dubliner</h5>
+                            <p class="card-text card-content">For a late night out and entertainment to keep you
+                                dancing, a must on any holiday makers list is a visit to The Dubliner</p>
+                            <a href="https://m.facebook.com/THE-DUBLINER-BAR-TENERIFE-363956496609/" target="blank"
+                                class="btns mt-auto">Find out more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 favs-cards">
+                    <div class="card mx-auto h-100">
+                        <img src="assets/images/skybar.jpg" class="card-img-top" alt="SkyBar">
+                        <div class="card-body text-center d-flex flex-column">
+                            <h5 class="card-title card-head">SkyBar</h5>
+                            <p class="card-text card-content">When the daytime sun gets too much a visit to the SkyBar
+                                is essential. Plenty of drinks promotions and stunning views of the sea make it even
+                                better.</p>
+                            <a href="https://www.facebook.com/skybartenerife/" target="blank" class="btns mt-auto">Find
+                                out more</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</section>
-<footer class="container" id="foot">
-    <div class="global container">
-        <div class="social center">
-            <h6>Follow Us</h6>
-            <a href="https://www.facebook.com/ILoveTenerife/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://twitter.com/hashtag/tenerife?lang=en" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.instagram.com/explore/tags/tenerife/?hl=en" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.youtube.com/c/VisitTenerifeEN" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+
+    <!-- Contact form code -->
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <form onsubmit="return sendMail(this);" class="contact-form">
+                        <div class="contact-form mt-5">
+                            <div class="form-heading">
+                                <h2><i class="fa fa-envelope" aria-hidden="true"></i>Contact Us</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="text" name="name" pattern="[a-z]{A-Z}" placeholder="Your Full Name..."
+                                    required>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="email" pattern=".+@.+.+" name="emailaddress"
+                                    placeholder="Your Email Address..." required>
+                            </div>
+                            <div class="col-md-12">
+                                <textarea name="message" id="message" placeholder="Your Message...."
+                                    required></textarea>
+                            </div>
+                            <div class="col-md-12">
+
+                                <div class="contact-btn">
+                                    <button type="submit" id="btnsubmit">Submit</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
+    </section>
+    <footer class="container" id="foot">
+        <div class="global container">
+            <div class="social center">
+                <h6>Follow Us</h6>
+                <a href="https://www.facebook.com/ILoveTenerife/" target="_blank" title="Facebook"><i
+                        class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/hashtag/tenerife?lang=en" target="_blank" title="Twitter"><i
+                        class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/explore/tags/tenerife/?hl=en" target="_blank" title="Instagram"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/c/VisitTenerifeEN" target="_blank" title="YouTube"><i
+                        class="fab fa-youtube"></i></a>
+            </div>
             <div class="center">
                 <p class="copyright">&copy; Copyright Paul Prenderville. All rights reserved.</p>
             </div>
-    </div>
-</footer>
-<script src="assets/js/sendEmail.js"></script>    
-<script src="assets/js/maps.js"></script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCO3xu2fOUv5QhKa5m-t5cr0qaNWotj7gY&callback=initMap"></script>
-<script src="assets/js/key.js"></script>
-<script src="assets/js/site.js"></script>          
+        </div>
+    </footer>
+    <script src="assets/js/sendEmail.js"></script>
+    <script src="assets/js/maps.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCO3xu2fOUv5QhKa5m-t5cr0qaNWotj7gY&callback=initMap">
+    </script>
+    <script src="assets/js/key.js"></script>
+    <script src="assets/js/site.js"></script>
 </body>
+
 </html>
