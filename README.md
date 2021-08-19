@@ -229,23 +229,23 @@ Result:<br>
 Worked as intended and diplayed errors if email was incorrect format.<br>
 <img src="/assets/readmeimages/news_test.PNG" width="600px" height="300px">
 
-*Contact Form
-Expected to be able to input name, email and message. 
+*Contact Form<br>
+Expected to be able to input name, email and message. <br>
 Result:<br>
 Worked as intended and diplayed errors if name or email was incorrect format.<br>
-<img src="/assets/readmeimages/contact_test.PNG" width="600px" height="300px">
+<img src="/assets/readmeimages/contact_test.PNG" width="600px" height="500px">
 
 *Buttons
 The buttons on the side when clicked should populate the location on the map when clicked. 
 This worked perfectly as intended<br>
-<img src="/assets/readmeimages/buttons_test.PNG" width="400px" height="200px"><br>
+<img src="/assets/readmeimages/buttons_test.PNG" width="600px" height="500px"><br>
 
 Also once a button is clicked is should display the top 3 items for that buttons
 For expample when restaurants is clicked is should populate the restaurants on the map and also
 list the top 3 restaurants. 
 Result:
 Worked perfectly as inteded<br>
-<img src="/assets/readmeimages/buttons2_test.PNG" width="400px" height="200px">
+<img src="/assets/readmeimages/buttons2_test.PNG" width="600px" height="500px">
 
 ### Testing User Stories from UX Section
 **First Time Visitor Goals**
