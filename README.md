@@ -108,7 +108,7 @@ attractions and hotels along with things to do while on holiday there.
 
 * When these buttons are clicked they drop markers on the map.
 
-<img src="/assets/readmeimages/mapmarkers.PNG" width="300px" height="500px">
+<img src="/assets/readmeimages/mapmarkers.PNG" width="400px" height="500px">
 
 * You can click on the markers and an info box will open.
 
