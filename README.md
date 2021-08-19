@@ -211,14 +211,39 @@ attractions and hotels along with things to do while on holiday there.
 Everything worked as intended
 
 *For email.js
+*Everything working as should be<br>
 <img src="/assets/readmeimages/email_js.PNG" width="400px" height="400px">
-*Everything working as should be
+
 
 **Testing elements on the site**
 *Navbar
 The navbar appears at the top of the page and should reduce in size when the screen is smaller.
-It works as intended with the menu reduced to hamburger bars.
-<img src="/assets/readmeimages/nav_test.PNG" width="400px" height="400px">
+It works as intended with the menu reduced to hamburger bars.<br>
+<img src="/assets/readmeimages/nav_test.PNG" width="400px" height="200px">
+
+*Newsletter
+Expected to be able to input name and email. 
+Result:<br>
+Worked as intended and diplayed errors if email was incorrect format.<br>
+<img src="/assets/readmeimages/news_test.PNG" width="400px" height="200px">
+
+*Contact Form
+Expected to be able to input name, email and message. 
+Result:<br>
+Worked as intended and diplayed errors if name or email was incorrect format.<br>
+<img src="/assets/readmeimages/contact_test.PNG" width="400px" height="200px">
+
+*Buttons
+The buttons on the side when clicked should populate the location on the map when clicked. 
+This worked perfectly as intended<br>
+<img src="/assets/readmeimages/buttons_test.PNG" width="400px" height="200px"><br>
+
+Also once a button is clicked is should display the top 3 items for that buttons
+For expample when restaurants is clicked is should populate the restaurants on the map and also
+list the top 3 restaurants. 
+Result:
+Worked perfectly as inteded<br>
+<img src="/assets/readmeimages/buttons2_test.PNG" width="400px" height="200px">
 
 ### Testing User Stories from UX Section
 **First Time Visitor Goals**
