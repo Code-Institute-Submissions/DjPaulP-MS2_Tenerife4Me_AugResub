@@ -162,6 +162,8 @@ attractions and hotels along with things to do while on holiday there.
 ## **Features**
 
 * Responsive on all devices, Desktop, Tablet and Mobile. 
+Website was also tested on 3 browsers, Chrome, Firefox and Safari. 
+The site responded as intended across all browsers. No issues to report. 
 
 ***
 
@@ -201,37 +203,37 @@ attractions and hotels along with things to do while on holiday there.
 * The first time I ran the the html validator it returned an error in which "type=text/JavaScript" was no longer needed so I deleted this.
 
 * JSHint Screen shots 
-*For maps.js
+*For maps.js<br>
 <img src="/assets/readmeimages/maps_js.PNG" width="400px" height="400px">
 * All the warnings listed were the exact same relating to version control which had no impact on the running of the site. 
 
-*For site.js
+*For site.js<br>
 <img src="/assets/readmeimages/site_js.PNG" width="400px" height="400px">
 * Again the warnings listed were all the exact same relating to version control which had no impact on the running of the site.
 Everything worked as intended
 
-*For email.js
+*For email.js<br>
 *Everything working as should be<br>
 <img src="/assets/readmeimages/email_js.PNG" width="400px" height="400px">
 
 
-**Testing elements on the site**
-*Navbar
+**Testing elements on the site**<br>
+*Navbar<br>
 The navbar appears at the top of the page and should reduce in size when the screen is smaller.
 It works as intended with the menu reduced to hamburger bars.<br>
-<img src="/assets/readmeimages/nav_test.PNG" width="400px" height="200px">
+<img src="/assets/readmeimages/nav_test.PNG" width="400px" height="150px">
 
 *Newsletter
 Expected to be able to input name and email. 
 Result:<br>
 Worked as intended and diplayed errors if email was incorrect format.<br>
-<img src="/assets/readmeimages/news_test.PNG" width="400px" height="200px">
+<img src="/assets/readmeimages/news_test.PNG" width="600px" height="300px">
 
 *Contact Form
 Expected to be able to input name, email and message. 
 Result:<br>
 Worked as intended and diplayed errors if name or email was incorrect format.<br>
-<img src="/assets/readmeimages/contact_test.PNG" width="400px" height="200px">
+<img src="/assets/readmeimages/contact_test.PNG" width="600px" height="300px">
 
 *Buttons
 The buttons on the side when clicked should populate the location on the map when clicked. 
