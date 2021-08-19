@@ -188,7 +188,7 @@ attractions and hotels along with things to do while on holiday there.
 ***
 
 ## **Testing**
-* The W3C Markup Validator and W3C CSS Validator Services were used to validate the website. This ensured there were no syntax errors.
+* The W3C Markup Validator, W3C CSS Validator and JShint Services were used to validate the website. This ensured there were no syntax errors.
 
 * CSS Validation can be seen here:<br>
 <img src="/assets/readmeimages/cssvalidation.PNG" width="400px" height="400px"> 
@@ -200,6 +200,25 @@ attractions and hotels along with things to do while on holiday there.
 <img src="/assets/readmeimages/htmlvalidation.PNG" width="400px" height="400px">
 * The first time I ran the the html validator it returned an error in which "type=text/JavaScript" was no longer needed so I deleted this.
 
+* JSHint Screen shots 
+*For maps.js
+<img src="/assets/readmeimages/maps_js.PNG" width="400px" height="400px">
+* All the warnings listed were the exact same relating to version control which had no impact on the running of the site. 
+
+*For site.js
+<img src="/assets/readmeimages/site_js.PNG" width="400px" height="400px">
+* Again the warnings listed were all the exact same relating to version control which had no impact on the running of the site.
+Everything worked as intended
+
+*For email.js
+<img src="/assets/readmeimages/email_js.PNG" width="400px" height="400px">
+*Everything working as should be
+
+**Testing elements on the site**
+*Navbar
+The navbar appears at the top of the page and should reduce in size when the screen is smaller.
+It works as intended with the menu reduced to hamburger bars.
+<img src="/assets/readmeimages/nav_test.PNG" width="400px" height="400px">
 
 ### Testing User Stories from UX Section
 **First Time Visitor Goals**
@@ -229,6 +248,8 @@ attractions and hotels along with things to do while on holiday there.
 
    * On the fotter there are links to each of my business social pages which users can check out. These contain more videos and more up to date information<br>
 <img src="/assets/readmeimages/footer.PNG" width="600px" height="300px">
+
+
 
 ## DevTools
 
